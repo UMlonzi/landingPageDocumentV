@@ -1,0 +1,130 @@
+.toppest{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.information{
+    margin-left: 25%;
+    width: 55%;
+    margin-top: 5%;
+    text-align: center;
+}
+.information h4{
+    color: #74736d;
+    font-family: reckless,serif;
+    margin-top: 5%;
+    font-style:normal;
+
+
+}
+.information h1{
+    font-family: reckless,serif;
+    margin-top: 4%;
+    font-style:normal;
+
+
+}
+
+.information p{
+    margin-top: 4%;
+    font-style:normal;
+
+}
+
+.img2{
+justify-content: center;
+align-items: center;
+/* background-color: rebeccapurple; */
+padding-top: 5%; 
+margin-left: 30%;
+}
+
+.img2 h1{
+    font-family: reckless,serif;
+    margin-top: 6%;
+    font-style:normal;
+    margin-left: 7%;
+
+}
+
+.buttonStyle{
+    padding: 2%;
+border-radius: 50%;
+margin-left: 25%;
+margin-top: 5%;
+background-color: white;
+border: 1px solid black;
+}
+.buttonStyle:hover{
+    background-color: black;
+    color: white;
+
+}
+
+.divide{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: red;
+    height: 70vh;
+    margin-top: 5%;
+    display: flex;
+
+}
+
+.divide .one{
+    width: 50%;
+justify-content: center;
+align-items: center;
+ background-color: rebeccapurple; 
+padding-top: 5%; 
+height: 70vh;
+
+}
+.divide .two{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+     background-color: yellow; 
+    padding-top: 5%; 
+    height: 70vh;
+
+}
+
+.button4 {
+    padding: 17px 20px;
+    font-size: 1rem;
+    color: white;
+    font-weight: 700;
+    background-color: black;
+    border: 1px solid ;
+    border-radius: 24px;
+    cursor: pointer;
+    width: 12%;
+  }
+  
+  .button4:hover{
+    background-color: #EEECE3;
+    color: black;
+    border: white;
+  }
+  .button3 {
+    padding: 17px 20px;
+    font-size: 1rem;
+    color: black;
+    font-weight: 700;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 24px;
+    cursor: pointer;
+    width: 12%;
+  }
+  
+  .button3:hover{
+    background-color: black;
+    color: white;
+  }
+
+  .miss{
+    width: 52%;
+  }
