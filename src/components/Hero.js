@@ -11,7 +11,7 @@ const Hero = () => {
     
         </span>
       
-      <h>for startup employees</h>
+      <h1>for startup employees</h1>
             <p>
             Get equity planning, stock option financing, and wealth <br></br>
             management from advisors that know how stock options <br></br>
