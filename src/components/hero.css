@@ -28,6 +28,17 @@ z-index: -1;
     padding: 1rem;
     color: black;
 }
+.hero h1{
+    margin-bottom: 2%;
+    font-family: reckless,serif;
+    white-space: pre-wrap;
+    letter-spacing: .02cm;
+    font-weight: 100;
+}
+.hero p{
+    font-family: reckless,serif;
+
+}
 
 .button {
     padding: 17px 20px;
@@ -36,14 +47,22 @@ z-index: -1;
     font-weight: 700;
     background-color: black;
     border: 1px solid ;
-    border-radius: 24px;
+    border-radius: 27px;
     cursor: pointer;
-    width: 12%;
-    margin-top: 3%;
+    width: 15%;
+    margin-top: 2%;
   }
   
   .button:hover{
     background-color: white;
     color: black;
     border: white;
+  }
+  .caca{
+    font-family: reckless,serif;
+    white-space: pre-wrap;
+    letter-spacing: .02cm;
+    font-size: xx-large;
+    font-weight: 100;
+
   }
