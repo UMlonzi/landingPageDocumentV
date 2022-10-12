@@ -23,21 +23,8 @@ const Navbar = () => {
                  : (<FaBars size={30} style={{ color: '#ffffff' }} />)}
             </div>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
-                 {/* <a href="#">Learn</a>
-            <ul class="dropdown">
-                <li><a href="#">C++</a></li>
-                <li><a href="#">JAVA</a></li>
-                <li><a href="#">PHP</a></li>
-            </ul> */}
-            <div class="dropdown">
-
-              <button class="dropbtn">Dropdown</button>
-  <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-  </div>
-  </div>
+         
+     
                 <li className='nav-item'>
                     <a href='/'>Learn</a>
                 </li>
@@ -74,3 +61,51 @@ const Navbar = () => {
 }
 
 export default Navbar
+// import logo from './images/Black-removebg-preview.png'
+// import React, { useState } from "react";
+// import { Link } from "react-router-dom";
+// import * as Icons from "react-icons/fa";
+// import "./navbar.css";
+// import { navItems } from "./NavItems";
+// import Button from "./Button";
+// import Dropdown from "./Dropdown";
+
+// function Navbar() {
+//   const [dropdown, setDropdown] = useState(false);
+
+//   return (
+//     <>
+//       <nav className="navbar">
+//         <Link to="/" className="navbar-logo">
+//                        <img src={logo} alt='logo'  />
+
+//         </Link>
+//         <ul className="nav-items">
+//           {navItems.map((item) => {
+//             if (item.title === "Services") {
+//               return (
+//                 <li
+//                   key={item.id}
+//                   className={item.cName}
+//                   onMouseEnter={() => setDropdown(true)}
+//                   onMouseLeave={() => setDropdown(false)}
+//                 >
+//                   <Link to={item.path}>{item.title}</Link>
+//                   {dropdown && <Dropdown />}
+//                 </li>
+//               );
+//             }
+//             return (
+//               <li key={item.id} className={item.cName}>
+//                 <Link to={item.path}>{item.title}</Link>
+//               </li>
+//             );
+//           })}
+//         </ul>
+//         <Button />
+//       </nav>
+//     </>
+//   );
+// }
+
+// export default Navbar;

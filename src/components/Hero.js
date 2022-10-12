@@ -1,17 +1,22 @@
 import React, {useState} from 'react'
+import Typical from 'react-typical'
+
 import './hero.css'
 const Hero = () => {
-    const [words, setWords] = useState(["b" , "Alex", "Lucie", "Michael"]);
-
+    const steps = [
+        'Equity Financing', 1000,
+        'Wealth Management', 1000,
+       
+      ];
   return (
     <div className='hero'>
         <div className='content'>
         
-        <span>
-    
-        </span>
+          <div>
+        <Typical wrapper="span" steps={steps} loop={1} className={'caca'} />
+      </div>
       
-      <h>for startup employees</h>
+      <h1>for startup employees</h1>
             <p>
             Get equity planning, stock option financing, and wealth <br></br>
             management from advisors that know how stock options <br></br>
