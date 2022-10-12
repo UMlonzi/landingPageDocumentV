@@ -65,7 +65,7 @@ border: 1px solid black;
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
     height: 70vh;
     margin-top: 5%;
     display: flex;
@@ -76,16 +76,33 @@ border: 1px solid black;
     width: 50%;
 justify-content: center;
 align-items: center;
- background-color: rebeccapurple; 
+ /* background-color: rebeccapurple;  */
 padding-top: 5%; 
 height: 70vh;
+
+
+}
+
+.one h5{
+    color: #74736d;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+    font-style:normal;
+    margin-left: 34%;
+
+}
+.one h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4%;
+    font-style:normal;
+    margin-left: 34%;
 
 }
 .divide .two{
     width: 50%;
     justify-content: center;
     align-items: center;
-     background-color: yellow; 
+     /* background-color: yellow;  */
     padding-top: 5%; 
     height: 70vh;
 
@@ -100,7 +117,9 @@ height: 70vh;
     border: 1px solid ;
     border-radius: 24px;
     cursor: pointer;
-    width: 12%;
+    width: 22%;
+    margin-left: 4%;
+
   }
   
   .button4:hover{
@@ -117,7 +136,10 @@ height: 70vh;
     border: 1px solid black;
     border-radius: 24px;
     cursor: pointer;
-    width: 12%;
+    width: 22%;
+    margin-left: 34%;
+    margin-top: 4%;
+
   }
   
   .button3:hover{
@@ -128,3 +150,223 @@ height: 70vh;
   .miss{
     width: 52%;
   }
+
+
+.divide1{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: red; */
+    height: 70vh;
+    margin-top: 5%;
+    display: flex;
+    background-color: #F7F6F2;
+
+}
+
+.divide1 .one1{
+    width: 50%;
+justify-content: center;
+align-items: center;
+ /* background-color: rebeccapurple;  */
+padding-top: 5%; 
+height: 70vh;
+
+}
+.one1 h5{
+    color: #74736d;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+    font-style:normal;
+
+}
+.one1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4%;
+    font-style:normal;
+
+}
+.divide1 .two1{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+     /* background-color: yellow;  */
+    padding-top: 5%; 
+    height: 70vh;
+
+}
+
+.button5 {
+    padding: 27px 20px;
+    font-size: 1rem;
+    color: white;
+    font-weight: 700;
+    background-color: black;
+    border: 1px solid ;
+    border-radius: 24px;
+    cursor: pointer;
+    width: 22%;
+    margin-top: 4%; 
+    margin-right: 0%;
+ }
+  
+  .button5:hover{
+    background-color: #EEECE3;
+    color: black;
+    border: white;
+  }
+  .button6 {
+    padding: 17px 20px;
+    font-size: 1rem;
+    color: black;
+    font-weight: 700;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 24px;
+    cursor: pointer;
+    width: 20%;
+    margin-top: 4%;
+
+ }
+  
+  .button6:hover{
+    background-color: black;
+    color: white;
+  }
+
+  .equity{
+    width: 52%;
+    margin-left: 34%;
+
+    
+  }
+
+
+.divide2{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: red;
+    height: 70vh;
+    margin-top: 5%;
+    display: flex;
+
+}
+
+.divide2 .one2{
+    width: 50%;
+justify-content: center;
+align-items: center;
+ background-color: rebeccapurple; 
+padding-top: 5%; 
+height: 70vh;
+
+}
+.divide2 .two2{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+     background-color: yellow; 
+    padding-top: 5%; 
+    height: 70vh;
+
+}
+
+.button5 {
+    padding: 17px 20px;
+    font-size: 1rem;
+    color: white;
+    font-weight: 700;
+    background-color: black;
+    border: 1px solid ;
+    border-radius: 24px;
+    cursor: pointer;
+    width: 12%;
+  }
+  
+  .button5:hover{
+    background-color: #EEECE3;
+    color: black;
+    border: white;
+  }
+  .button6 {
+    padding: 17px 20px;
+    font-size: 1rem;
+    color: black;
+    font-weight: 700;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 24px;
+    cursor: pointer;
+    width: 12%;
+  }
+  
+  .button6:hover{
+    background-color: black;
+    color: white;
+  }
+
+  .man{
+    width: 52%;
+
+  }
+
+
+.divide4{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: red; */
+    height: 70vh;
+    margin-top: 5%;
+    display: flex;
+    background-color: #F7F6F2;
+
+}
+
+.divide4 .one4{
+    width: 50%;
+justify-content: center;
+align-items: center;
+ /* background-color: rebeccapurple;  */
+padding-top: 5%; 
+height: 70vh;
+
+}
+.one4 h6{
+    color: #74736d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    margin-top: -5%;
+margin-bottom: 2%;
+    margin-left: 32%;
+}
+.one4 h1{
+    font-size: 3rem;
+    font-family: reckless,serif;
+    font-style:normal;
+    margin-left: 32%;
+
+
+}
+.divide4 .two4{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+     /* background-color: yellow;  */
+    padding-top: 5%; 
+    height: 70vh;
+
+}
+
+.two4 h3{
+font-weight:normal;
+font-size: larger;
+margin-bottom: 3%;
+}
+.two4 p{
+    font-weight: normal;
+    font-size:medium;
+    margin-bottom: 3%;
+
+}

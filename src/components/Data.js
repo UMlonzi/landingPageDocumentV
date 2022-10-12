@@ -5,6 +5,9 @@ import { IconButton } from "rsuite";
 import {  Search } from '@rsuite/icons';
 import SortDownIcon from '@rsuite/icons/SortDown';
 import miss from './images/8ac5c7f468f6a8686d435263efcf994b2a321369-1177x1224.webp'
+import equity from './images/d6e7c66584a49398201d2cebfef8c39b5a7a5c47-858x700.webp'
+import man from './images/85fc19315ea2838b6faa5d6087a859d00c56498b-1314x1180.webp'
+
 
 
 function Data() {
@@ -42,6 +45,69 @@ function Data() {
             </div>
         </div>
 
+        <div className='divide1'>
+            
+
+            <div className='two1'>
+
+            <img src={equity} alt='equity' className='equity'/>
+
+            </div>
+            <div className='one1'>
+            <h5>EXERCISE & LIQUIDITY FINANCING</h5>
+            <h3>Get the cash you need to own your <br></br>
+            equity, or get cash for your private <br></br>shares without selling them.
+            </h3>
+            <button href='/' className='button6'>Log in</button>
+            <button href='/' className='button5'>Get started</button>
+            </div>
+        </div>
+
+        <div className='divide'>
+            <div className='one'>
+            <h5>WEALTH MANAGEMENT</h5>
+            <h3>Grow your money through managed <br></br>
+            portfolios and exclusive access to  <br></br>private investments.
+            </h3>
+            <button href='/' className='button3'>Log in</button>
+            <button href='/' className='button4'>Get started</button>
+            </div>
+
+            <div className='two'>
+
+            <img src={man} alt='man' className='man'/>
+
+            </div>
+        </div>
+
+        <div className='divide4'>
+            <div className='one4'>
+            <h6>WHY SECFI</h6>
+            <h1>
+            Built by startup <br></br>employees
+           </h1>
+            </div>
+
+            <div className='two4'>
+                <h3>We put equity first</h3>
+                <p>
+                Our team has deep expertise in equity, tax implications, and how 
+                <br></br>it fits into your financial picture.
+                </p>
+                <h3>You don’t need millions</h3>
+                <p>
+                We help you make important equity decisions that can set you
+                    <br></br>up for financial success.
+                </p>
+
+                <h3>Holistic wealth management</h3>
+                <p>
+                We take a comprehensive view of all your finances, including <br></br>
+                stock options, to help you save time and money, and grow your <br></br>wealth.
+                </p>
+
+            </div>
+        </div>
     </div>
   )
 }
