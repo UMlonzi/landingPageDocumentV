@@ -1,9 +1,15 @@
 import React from 'react';
 import './data.css'
 import video from './images/1_UINAsA-ZAG8UBYKhENkWiw.gif'
+import { IconButton } from "rsuite";
+import {  Search } from '@rsuite/icons';
+import SortDownIcon from '@rsuite/icons/SortDown';
+import miss from './images/8ac5c7f468f6a8686d435263efcf994b2a321369-1177x1224.webp'
 
 
 function Data() {
+    const ButtonStyle = { margin: "0px 10px" };
+
   return (
     <div className='toppest'>
         <div className='information'>
@@ -14,8 +20,26 @@ function Data() {
         <div className='img2'>
         <img src={video} alt='video' height={300}/>
 
-        {/* <video src={video} width="750" height="500" controls>
-        </video> */}
+        <h1>How we help our clients</h1>
+        <IconButton icon={<SortDownIcon />} className='buttonStyle' />
+
+        </div>
+
+        <div className='divide'>
+            <div className='one'>
+            <h5>EQUITY, Tax & IPO PLANNING</h5>
+            <h3>Work with a financial advisor to align <br></br>
+            your stock options with your financial <br></br>goals.
+            </h3>
+            <button href='/' className='button3'>Log in</button>
+            <button href='/' className='button4'>Get started</button>
+            </div>
+
+            <div className='two'>
+
+            <img src={miss} alt='video' className='miss'/>
+
+            </div>
         </div>
 
     </div>
