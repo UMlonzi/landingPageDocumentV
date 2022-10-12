@@ -1,0 +1,19 @@
+.toppest{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.information{
+    margin-left: 25%;
+    width: 55%;
+    margin-top: 5%;
+    text-align: center;
+}
+.information h4{
+    color: #74736d;
+    font-family: reckless,serif;
+}
+.information h1{
+    font-family: reckless,serif;
+}
+
