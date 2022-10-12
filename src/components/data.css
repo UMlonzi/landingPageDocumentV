@@ -12,8 +12,31 @@
 .information h4{
     color: #74736d;
     font-family: reckless,serif;
+    margin-top: 5%;
+    font-style:normal;
+
+
 }
 .information h1{
     font-family: reckless,serif;
+    margin-top: 4%;
+    font-style:normal;
+
+
+}
+
+.information p{
+    margin-top: 4%;
+    font-style:normal;
+
+}
+
+.img2{
+justify-content: center;
+align-items: center;
+/* background-color: rebeccapurple; */
+padding-top: 5%; 
+margin-left: 30%;
+
 }
 
