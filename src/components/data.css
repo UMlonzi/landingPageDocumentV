@@ -88,14 +88,14 @@ height: 70vh;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 5%;
     font-style:normal;
-    margin-left: 34%;
+    margin-left: 30%;
 
 }
 .one h3{
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 4%;
     font-style:normal;
-    margin-left: 34%;
+    margin-left: 30%;
 
 }
 .divide .two{
@@ -118,7 +118,7 @@ height: 70vh;
     border-radius: 24px;
     cursor: pointer;
     width: 22%;
-    margin-left: 4%;
+    margin-left: 31%;
 
   }
   
@@ -137,7 +137,7 @@ height: 70vh;
     border-radius: 24px;
     cursor: pointer;
     width: 22%;
-    margin-left: 34%;
+    margin-left: 2%;
     margin-top: 4%;
 
   }
@@ -149,6 +149,7 @@ height: 70vh;
 
   .miss{
     width: 52%;
+    margin-left: 20%;
   }
 
 
@@ -178,12 +179,16 @@ height: 70vh;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 5%;
     font-style:normal;
+    margin-left: 20%;
+
+
 
 }
 .one1 h3{
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 4%;
     font-style:normal;
+    margin-left: 20%;
 
 }
 .divide1 .two1{
@@ -196,8 +201,9 @@ height: 70vh;
 
 }
 
-.button5 {
-    padding: 27px 20px;
+.button8 {
+   
+    padding: 17px 20px;
     font-size: 1rem;
     color: white;
     font-weight: 700;
@@ -206,16 +212,17 @@ height: 70vh;
     border-radius: 24px;
     cursor: pointer;
     width: 22%;
-    margin-top: 4%; 
-    margin-right: 0%;
+    margin-left: 20%;
+
  }
   
-  .button5:hover{
+  .button8:hover{
     background-color: #EEECE3;
     color: black;
     border: white;
   }
-  .button6 {
+  .button7 {
+    
     padding: 17px 20px;
     font-size: 1rem;
     color: black;
@@ -224,19 +231,19 @@ height: 70vh;
     border: 1px solid black;
     border-radius: 24px;
     cursor: pointer;
-    width: 20%;
+    width: 22%;
     margin-top: 4%;
-
+    margin-left: 2%;
  }
   
-  .button6:hover{
+  .button7:hover{
     background-color: black;
     color: white;
   }
 
   .equity{
     width: 52%;
-    margin-left: 34%;
+    margin-left: 30%;
 
     
   }
@@ -308,6 +315,7 @@ height: 70vh;
 
   .man{
     width: 52%;
+    margin-left: 20%;
 
   }
 

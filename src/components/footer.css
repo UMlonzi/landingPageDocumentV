@@ -1,0 +1,141 @@
+.footer{
+
+    background-color: red;
+    display: flex;
+    width: 100%;
+    height: 70vh;
+}
+
+.solutions{
+    width: 20%;
+    text-align: left;
+    /* background-color: palegoldenrod; */
+    height: 70vh;
+    margin-left: 1%;
+}
+
+.solutions h3{
+    color: #97B1B3;
+    margin-top: 22%;
+    margin-bottom: 12%;
+}
+.solutions li {
+    margin-bottom: 8%;
+}
+.solutions a {
+    color:#292a2d;
+    
+}
+.solutions a:hover {
+    padding-bottom: 1px ;
+    border-bottom: 1px solid#292a2d;
+    
+}
+.Tools{
+    width: 20%;
+    text-align: left;
+    /* background-color: aliceblue; */
+    height: 70vh;
+
+}
+
+.Tools h3{
+    color: #97B1B3;
+    margin-top: 22%;
+    margin-bottom: 12%;
+    margin-left: 1%;
+
+}
+.Tools li {
+    margin-bottom: 8%;
+}
+.Tools a {
+    color:#292a2d;
+    
+}
+.Tools a:hover {
+    padding-bottom: 1px ;
+    border-bottom: 1px solid#292a2d;
+    
+}
+.Learn{
+    width: 20%;
+    text-align: left;
+    /* background-color: purple; */
+    height: 50vh;
+}
+
+.Learn h3{
+    color: #97B1B3;
+    margin-top: 22%;
+    margin-bottom: 12%;
+    margin-left: 1%;
+
+}
+.Learn li {
+    margin-bottom: 8%;
+}
+.Learn a {
+    color:#292a2d;
+    
+}
+.Learn a:hover {
+    padding-bottom: 1px ;
+    border-bottom: 1px solid#292a2d;
+    
+}
+
+.About-Us{
+    width: 20%;
+    text-align: left;
+    /* background-color: rgb(0, 128, 11); */
+    height: 50vh;
+}
+
+.About-Us h3{
+    color: #97B1B3;
+    margin-top: 22%;
+    margin-bottom: 12%;
+    margin-left: 1%;
+
+}
+.About-Us li {
+    margin-bottom: 8%;
+}
+.About-Us a {
+    color:#292a2d;
+    
+}
+.About-Us a:hover {
+    padding-bottom: 1px ;
+    border-bottom: 1px solid#292a2d;
+    
+}
+
+.icons{
+    width: 20%;
+    text-align: left;
+    /* background-color: rgb(117, 128, 0); */
+    height: 50vh;
+}
+
+.icons h3{
+    color: #97B1B3;
+    margin-top: 22%;
+    margin-bottom: 12%;
+    margin-left: 1%;
+
+}
+
+.icons li {
+    margin-bottom: 8%;
+}
+.icons a {
+    color:#adb2b7;
+    
+}
+.icons a:hover {
+    padding-bottom: 1px ;
+    border-bottom: 1px solid#adb2b7;
+    
+}

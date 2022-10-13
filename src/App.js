@@ -20,10 +20,6 @@ function App() {
         <Route path='/Auth' element={<Auth/>}/>
       </Routes>
       </BrowserRouter>
-      <Navbar />
-      <Hero />
-      <Data/>
-      <Slide/>
     </div>
   );
 }

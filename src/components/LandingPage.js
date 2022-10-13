@@ -1,26 +1,25 @@
 
-import React from 'react'
-import Navbar from './Navbar'
-import Data from './Data'
-import Slide from './Slide'
-import Hero from './Hero'
 
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Data from './components/Data';
-import Slide from './components/Slide';
+
+import Navbar from "./Navbar";
+import Data from "./Data";
+import Hero from "./Hero";
+import Slide from "./Slide";
+import  Footer  from "./Footer";
 
 
 function LandingPage() {
   return (
     <div>
         <Navbar/>
-        <Data/>
         <Hero/>
+        <Data/>
         <Slide/>
+        <Footer/>
     </div>
   )
 }
 
+export default LandingPage;
 
 
