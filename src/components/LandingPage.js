@@ -14,24 +14,13 @@ import Slide from './components/Slide';
 function LandingPage() {
   return (
     <div>
-
         <Navbar/>
         <Data/>
         <Hero/>
         <Slide/>
-
     </div>
   )
 }
 
-export default LandingPage
-      <Navbar />
-      <Hero />
-      <Data/>
-      <Slide/>
-    </div>
-  );
-}
 
-export default LandingPage;
 
