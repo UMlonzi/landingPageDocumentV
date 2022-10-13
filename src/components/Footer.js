@@ -1,5 +1,9 @@
 import React from 'react'
 import './footer.css'
+import twitter from './images/logo (1).png'
+import Linkedin from './images/Linkedin-logo-1-550x550-300x300.png'
+import facebook from './images/Facebook-logo.png'
+
 
 function Footer () {
   return (
@@ -94,8 +98,6 @@ function Footer () {
 
         <ul>
 
-
-
           <li>
             <a href=''>Our Story</a>
           </li>
@@ -115,7 +117,23 @@ function Footer () {
 
         <div className='icons'>
 
-<ul>
+          <ul>
+            <li className='icon'>
+              <a >
+              <img src={twitter} alt='twitter' height={60} width={60}/>
+
+              </a>
+              <a>
+              <img src={Linkedin} alt='Linkedin' height={60} width={60}/>
+
+              </a>
+              <a>
+              <img src={facebook} alt='facebook' height={60} width={80}/>
+
+              </a>
+            </li>
+          </ul>
+        <ul>
         <li>
             <a href=''>Privacy Policy</a>
           </li>
