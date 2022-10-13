@@ -78,7 +78,7 @@ function Footer () {
 
 
           <li>
-            <a href=''>Secfi Learn</a>
+            <a href=''>Docuify Learn</a>
           </li>
           <li>
           <a href=''>FAQ</a>
