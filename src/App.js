@@ -3,6 +3,7 @@ import { Routes,Route, BrowserRouter } from 'react-router-dom';
 import Auth from './components/auth/Auth';
 import LandingPage from './components/LandingPage';
 import Profile from './components/profile/Profile';
+import DashBoardPage from './pages/dashBoard';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
         <Route path='/' exact element={<LandingPage/>}/>
         <Route path='/Auth' element={<Auth/>}/>
         <Route path='/profile' element={<Profile/>} />
+
+        <Route path='.Dashboard' element={<DashBoardPage/>}/>
       </Routes>
       </BrowserRouter>
     </div>

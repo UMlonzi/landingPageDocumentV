@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.pageGrid{
+    display:grid;
+    grid-template-columns:5% 30rem 10rem;
+grid-template-rows: 8rem 30rem 30rem auto;
+    grid-template-areas: 
+"header header header header header"
+" .   .   . welcomeMssg ."
+"main main main main main"
+" table table table table table"
+"footer footer footer footer footer";
+  
+   
+}
+.item1{
+    grid-area:header;
+    align-self: end;
+    grid-column: 2/5;
+border-bottom: 1px solid black;
+}
+.headingDashboard{
+    width:150px;
+}
+.item2{
+    align-self: flex-start;
+  
+    grid-area:welcomeMssg;
+   align-self:center;
+    width:auto
+}
+.item3{
+    grid-area:main;
+ background-color: #decbae9c;
+
+
+}
+.item4{
+    grid-area:Boxes;
+    width:auto;
+}
+.item5{
+    grid-area: table;
+    width:100%;
+}
+.item16{
+    grid-area: footer;
+    
+}
+
+ 
+@media only screen and (max-width: 1000px){
+    .table{
+      background-color: blue;
+    }
+  }
+
