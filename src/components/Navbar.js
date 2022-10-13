@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { useNavigate } from 'react-router';
 import {FaBars, FaTimes} from 'react-icons/fa'
-import logo from './images/Black-removebg-preview.png'
+import logo from './images/logo_3-removebg-preview.png'
 import {  Search } from '@rsuite/icons';
 import './navbar.css'
 import { IconButton } from "rsuite";
