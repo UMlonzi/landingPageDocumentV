@@ -19,6 +19,18 @@
     margin-top: 22%;
     margin-bottom: 12%;
 }
+.solutions li {
+    margin-bottom: 8%;
+}
+.solutions a {
+    color:#292a2d;
+    
+}
+.solutions a:hover {
+    padding-bottom: 1px ;
+    border-bottom: 1px solid#292a2d;
+    
+}
 .Tools{
     width: 20%;
     text-align: left;
@@ -34,7 +46,18 @@
     margin-left: 1%;
 
 }
-
+.Tools li {
+    margin-bottom: 8%;
+}
+.Tools a {
+    color:#292a2d;
+    
+}
+.Tools a:hover {
+    padding-bottom: 1px ;
+    border-bottom: 1px solid#292a2d;
+    
+}
 .Learn{
     width: 20%;
     text-align: left;
@@ -48,6 +71,18 @@
     margin-bottom: 12%;
     margin-left: 1%;
 
+}
+.Learn li {
+    margin-bottom: 8%;
+}
+.Learn a {
+    color:#292a2d;
+    
+}
+.Learn a:hover {
+    padding-bottom: 1px ;
+    border-bottom: 1px solid#292a2d;
+    
 }
 
 .About-Us{

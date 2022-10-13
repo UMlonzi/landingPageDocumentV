@@ -42,10 +42,10 @@ function Footer () {
         </div>
 
         <div className='Tools'>
+        <h3>Tools</h3>
 
         <ul>
 
-        <h3>Tools</h3>
 
 
           <li>
@@ -73,11 +73,44 @@ function Footer () {
 
         <h3>Learn</h3>
 
+        <ul>
+
+
+
+          <li>
+            <a href=''>Secfi Learn</a>
+          </li>
+          <li>
+          <a href=''>FAQ</a>
+            </li>
+
+
+          </ul>
         </div>
 
         <div className='About-Us'>
 
         <h3>About Us</h3>
+
+        <ul>
+
+
+
+          <li>
+            <a href=''>Our Story</a>
+          </li>
+          <li>
+          <a href=''> Careers</a>
+            </li>
+          <li>
+            <a href=''>News & Press</a></li>
+            <li>
+          <a href=''> Contact Us</a>
+            </li>
+            <li>
+          <a href=''> Legal</a>
+            </li>
+          </ul>
         </div>
 
         <div className='icons'>
