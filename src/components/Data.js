@@ -4,7 +4,10 @@ import video from './images/1_UINAsA-ZAG8UBYKhENkWiw.gif'
 import { IconButton } from "rsuite";
 import {  Search } from '@rsuite/icons';
 import SortDownIcon from '@rsuite/icons/SortDown';
+
 import { useNavigate } from 'react-router';
+
+
 import miss from './images/8ac5c7f468f6a8686d435263efcf994b2a321369-1177x1224.webp'
 import equity from './images/d6e7c66584a49398201d2cebfef8c39b5a7a5c47-858x700.webp'
 import man from './images/85fc19315ea2838b6faa5d6087a859d00c56498b-1314x1180.webp'
@@ -13,10 +16,12 @@ import man from './images/85fc19315ea2838b6faa5d6087a859d00c56498b-1314x1180.web
 
 function Data() {
     const ButtonStyle = { margin: "0px 10px" };
+
     const navigate=useNavigate();
     const navToAuth=()=>{
         navigate('/Auth')
     }
+
 
   return (
     <div className='toppest'>
@@ -39,7 +44,10 @@ function Data() {
             <h3>Work with a financial advisor to align <br></br>
             your stock options with your financial <br></br>goals.
             </h3>
+
             <button onClick={navToAuth} className='button3'>Log in</button>
+            <button href='/' className='button3'>Log in</button>
+
             <button href='/' className='button4'>Get started</button>
             </div>
 
@@ -63,7 +71,11 @@ function Data() {
             <h3>Get the cash you need to own your <br></br>
             equity, or get cash for your private <br></br>shares without selling them.
             </h3>
+
             <button onClick={navToAuth} className='button6'>Log in</button>
+
+            <button href='/' className='button6'>Log in</button>
+
             <button href='/' className='button5'>Get started</button>
             </div>
         </div>
@@ -74,7 +86,11 @@ function Data() {
             <h3>Grow your money through managed <br></br>
             portfolios and exclusive access to  <br></br>private investments.
             </h3>
+
             <button onClick={navToAuth} className='button3'>Log in</button>
+
+            <button href='/' className='button3'>Log in</button>
+
             <button href='/' className='button4'>Get started</button>
             </div>
 
