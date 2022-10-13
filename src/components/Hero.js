@@ -3,6 +3,7 @@ import Typical from 'react-typical'
 import girl from './images/77bbe8c860a2341b89c7bf4421e94b973eacaaf3-1038x1356.webp'
 import './hero.css'
 import Marquee from "react-fast-marquee";
+
 const Hero = () => {
     const steps = [
         'Equity Financing', 1000,
