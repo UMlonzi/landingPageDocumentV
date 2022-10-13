@@ -1,4 +1,5 @@
-import React, {useState} from 'react'
+import React, {useState} from 'react';
+import { useNavigate } from 'react-router';
 import {FaBars, FaTimes} from 'react-icons/fa'
 import logo from './images/Black-removebg-preview.png'
 import {  Search } from '@rsuite/icons';
@@ -9,8 +10,12 @@ import { IconButton } from "rsuite";
 const Navbar = () => {
     const [click, setClick] = useState(false)
     const ButtonStyle = { margin: "0px 10px" };
+    const navigate=useNavigate();
 
     const handleClick = () => setClick(!click)
+    const navigateToAuth=()=>{
+        navigate('/Auth')
+    }
 
   return (
     <div className='header'>
@@ -49,7 +54,7 @@ const Navbar = () => {
             </ul> */}
         </li>
             </ul>
-            <button href='/' className='button2'>Log in</button>
+            <button onClick={navigateToAuth} className='button2'>Log in</button>
             <button href='/' className='button1'>Get started</button>
             <div>
             <IconButton icon={<Search />} className='ButtonStyle' />
