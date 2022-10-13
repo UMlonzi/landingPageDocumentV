@@ -1,0 +1,81 @@
+.footer{
+
+    background-color: red;
+    display: flex;
+    width: 100%;
+    height: 70vh;
+}
+
+.solutions{
+    width: 20%;
+    text-align: left;
+    background-color: palegoldenrod;
+    height: 70vh;
+    margin-left: 1%;
+}
+
+.solutions h3{
+    color: #97B1B3;
+    margin-top: 22%;
+    margin-bottom: 12%;
+}
+.Tools{
+    width: 20%;
+    text-align: left;
+    background-color: aliceblue;
+    height: 70vh;
+
+}
+
+.Tools h3{
+    color: #97B1B3;
+    margin-top: 22%;
+    margin-bottom: 12%;
+    margin-left: 1%;
+
+}
+
+.Learn{
+    width: 20%;
+    text-align: left;
+    background-color: purple;
+    height: 50vh;
+}
+
+.Learn h3{
+    color: #97B1B3;
+    margin-top: 22%;
+    margin-bottom: 12%;
+    margin-left: 1%;
+
+}
+
+.About-Us{
+    width: 20%;
+    text-align: left;
+    background-color: rgb(0, 128, 11);
+    height: 50vh;
+}
+
+.About-Us h3{
+    color: #97B1B3;
+    margin-top: 22%;
+    margin-bottom: 12%;
+    margin-left: 1%;
+
+}
+
+.icons{
+    width: 20%;
+    text-align: left;
+    background-color: rgb(117, 128, 0);
+    height: 50vh;
+}
+
+.icons h3{
+    color: #97B1B3;
+    margin-top: 22%;
+    margin-bottom: 12%;
+    margin-left: 1%;
+
+}
