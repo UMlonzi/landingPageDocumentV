@@ -24,17 +24,17 @@ function Footer () {
              <a href=''> Liquidity Flanning </a>
               </li>
             <li>
-             <a href=''>  Secfi Wealth</a>
+             <a href=''>  Docuify Wealth</a>
               </li>
             <li>
               <a href=''>Investment Management</a>
               </li>
             <li>
-              <a href=''> Secfi for Startups</a>
+              <a href=''> Docuify for Startups</a>
 
             </li>
             <li>
-              <a href=''>Secfi Capitec</a>
+              <a href=''>Docuify Capitec</a>
             </li>
 
 
