@@ -1,13 +1,19 @@
 import './App.css';
+import { Routes,Route, BrowserRouter } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Auth from './components/auth/Auth';
+import LandingPage from './components/LandingPage';
+
 function App() {
   return (
     <div>
-      <Navbar />
-      <Hero />
-      <Auth/>
+      <BrowserRouter>
+      <Routes>
+        <Route path='/' exact element={<LandingPage/>}/>
+        <Route path='/Auth' element={<Auth/>}/>
+      </Routes>
+      </BrowserRouter>
     </div>
   );
 }
