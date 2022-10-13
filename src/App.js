@@ -1,29 +1,19 @@
 import './App.css';
 import { Routes,Route, BrowserRouter } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-
 import Auth from './components/auth/Auth';
 import LandingPage from './components/LandingPage';
-import Data from './components/Data';
-import Slide from './components/Slide';
-
-
+import Profile from './components/profile/Profile';
 
 function App() {
   return (
     <div>
-
       <BrowserRouter>
       <Routes>
         <Route path='/' exact element={<LandingPage/>}/>
         <Route path='/Auth' element={<Auth/>}/>
+        <Route path='/profile' element={<Profile/>} />
       </Routes>
       </BrowserRouter>
-      <Navbar />
-      <Hero />
-      <Data/>
-      <Slide/>
     </div>
   );
 }

@@ -1,9 +1,6 @@
 .back-color{
-
     background-color: rgb(66, 66, 66);
-
     background-color: #313236;
-
     width: 100%;
     height: 50vh;
 }
@@ -21,9 +18,6 @@ color: white;
 .show h1{
     color: white;
     }
-
-padding-top: 8%;
-}
 .show h1{
     color: white;
     margin-top: 5%;
