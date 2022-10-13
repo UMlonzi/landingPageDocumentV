@@ -3,6 +3,8 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Data from './components/Data';
 import Slide from './components/Slide';
+
+
 function App() {
   return (
     <div>
