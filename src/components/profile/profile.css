@@ -2,9 +2,11 @@
     width: 100%;
     height: 100vh;
     padding: 2%;
+    background-color: #F7F6F2 ;
 }
 .top-lane{
     margin-bottom: 2%;
+    color: grey;
 }
 .top-lane h2{
     margin-left: 5%;
