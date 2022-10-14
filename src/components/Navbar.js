@@ -10,9 +10,8 @@ import { IconButton } from "rsuite";
 const Navbar = () => {
     const [click, setClick] = useState(false)
     const ButtonStyle = { margin: "0px 10px" };
-    const navigate=useNavigate();
-
     const handleClick = () => setClick(!click)
+    const navigate=useNavigate();
     const navigateToAuth=()=>{
         navigate('/Auth')
     }
@@ -37,10 +36,17 @@ const Navbar = () => {
                     <a href='/'>About</a>
                 </li>
                 <li className='nav-item'>
+
                     <a href='/'>Plan</a>
                 </li>
                 <li className='nav-item'>
                     <a href='/'>Contact Us</a>
+
+                    <a href='/Dashboard'>Dashboard</a>
+                </li>
+                <li className='nav-item'>
+                    <a href='/Profile'>Profile</a>
+
                 </li>
                 <li>
             {/* <a href="#">Programming languages</a>
@@ -52,7 +58,7 @@ const Navbar = () => {
         </li>
             </ul>
             <button onClick={navigateToAuth} className='button2'>Log in</button>
-            <button href='/' className='button1'>Get started</button>
+            <button onClick={navigateToAuth} className='button1'>Get started</button>
             <div>
             <IconButton icon={<Search />} className='ButtonStyle' />
             </div>

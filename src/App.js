@@ -13,7 +13,6 @@ function App() {
         <Route path='/' exact element={<LandingPage/>}/>
         <Route path='/Auth' element={<Auth/>}/>
         <Route path='/profile' element={<Profile/>} />
-
         <Route path='/Dashboard' element={<DashBoardPage/>}/>
       </Routes>
       </BrowserRouter>

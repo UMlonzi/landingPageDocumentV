@@ -6,10 +6,6 @@ import './profile.css';
 
 
 function Profile() {
-
-
-
-
   return (
     <div className='main-container'>
 

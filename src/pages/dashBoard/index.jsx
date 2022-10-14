@@ -3,7 +3,11 @@ import Tablecomponent from '../../component/upload/uplaodload'
 // import Navbar from '../../components/navbar/Navbar'
 import { WelcomeCard,UplaodToBlockchainBoxes,DisplayUplaodTable,SelectBox} from "../../component/upload/uplaodload"
 import "./index.css";
+
 import Navbar from '../../components/Navbar';
+
+
+import Navdash from './Navdash';
 
 const DashBoardPage = () => {
 const {innerWidth}=window;
@@ -12,7 +16,11 @@ console.log(innerWidth);
     <div className="pageGrid" style={{maxWidth:`${innerWidth}px`,height:"100vh"}}>
       
 <div className="item1"> 
+
 <Navbar/>
+
+<Navdash/>
+<h2 class="headingDashboard">Dashboard</h2>
 </div>
 <div className='item2'> <WelcomeCard /></div>
 <div className='item3'><DisplayUplaodTable/></div>
