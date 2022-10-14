@@ -1,13 +1,14 @@
 import React, {useState} from 'react';
 import { useNavigate } from 'react-router';
 import {FaBars, FaTimes} from 'react-icons/fa'
-import logo from './images/logo_3-removebg-preview.png'
+// import logo from './images/logo_3-removebg-preview.png'
+import logo from '../../components/images/logo_3-removebg-preview.png'
 import {  Search } from '@rsuite/icons';
-import './navbar.css'
+// import './navbar.css'
 import { IconButton } from "rsuite";
 
 
-const Navbar = () => {
+const Navdash = () => {
     const [click, setClick] = useState(false)
     const ButtonStyle = { margin: "0px 10px" };
     const handleClick = () => setClick(!click)
@@ -51,8 +52,8 @@ const Navbar = () => {
             </ul> */}
         </li>
             </ul>
-            <button onClick={navigateToAuth} className='button2'>Log in</button>
-            <button onClick={navigateToAuth} className='button1'>Get started</button>
+            <button onClick={navigateToAuth} className='button2'>Log out</button>
+            {/* <button onClick={navigateToAuth} className='button1'>Get started</button> */}
             <div>
             <IconButton icon={<Search />} className='ButtonStyle' />
             </div>
@@ -62,52 +63,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
-// import logo from './images/Black-removebg-preview.png'
-// import React, { useState } from "react";
-// import { Link } from "react-router-dom";
-// import * as Icons from "react-icons/fa";
-// import "./navbar.css";
-// import { navItems } from "./NavItems";
-// import Button from "./Button";
-// import Dropdown from "./Dropdown";
-
-// function Navbar() {
-//   const [dropdown, setDropdown] = useState(false);
-
-//   return (
-//     <>
-//       <nav className="navbar">
-//         <Link to="/" className="navbar-logo">
-//                        <img src={logo} alt='logo'  />
-
-//         </Link>
-//         <ul className="nav-items">
-//           {navItems.map((item) => {
-//             if (item.title === "Services") {
-//               return (
-//                 <li
-//                   key={item.id}
-//                   className={item.cName}
-//                   onMouseEnter={() => setDropdown(true)}
-//                   onMouseLeave={() => setDropdown(false)}
-//                 >
-//                   <Link to={item.path}>{item.title}</Link>
-//                   {dropdown && <Dropdown />}
-//                 </li>
-//               );
-//             }
-//             return (
-//               <li key={item.id} className={item.cName}>
-//                 <Link to={item.path}>{item.title}</Link>
-//               </li>
-//             );
-//           })}
-//         </ul>
-//         <Button />
-//       </nav>
-//     </>
-//   );
-// }
-
-// export default Navbar;
+export default Navdash
