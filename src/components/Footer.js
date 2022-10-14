@@ -20,10 +20,10 @@ function Footer () {
              <a href=''> IPO and Liquidity Planning </a>
               </li>
             <li>
-              <a href=''> Exercise Flanning </a>
+              <a href=''> Exercise Planning </a>
               </li>
             <li>
-             <a href=''> Liquidity Flanning </a>
+             <a href=''> Liquidity Planning </a>
               </li>
             <li>
              <a href=''>  Docuify Wealth</a>

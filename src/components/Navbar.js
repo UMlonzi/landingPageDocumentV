@@ -37,12 +37,11 @@ const Navbar = () => {
                     <a href='/'>About</a>
                 </li>
                 <li className='nav-item'>
-                    <a href='/'>Dashboard</a>
+                    <a href='/'>Plan</a>
                 </li>
                 <li className='nav-item'>
-                    <a href='/'>Profile</a>
+                    <a href='/'>Contact Us</a>
                 </li>
-               
                 <li>
             {/* <a href="#">Programming languages</a>
             <ul class="dropdown">
