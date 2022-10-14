@@ -8,6 +8,7 @@ import pic1 from '../images/ladyLogin.png';
 import pic2 from '../images/old_man.png'
 import './auth.css';
 import { useNavigate } from "react-router";
+import Navigationauth from "./Navigationauth";
 
 export default function Auth() {
   const [email, setEmail] = useState("");
@@ -69,6 +70,7 @@ export default function Auth() {
   };
   return (
     <div className="welcome">
+      <Navigationauth/>
       <div className="login-register-container">
         {isRegistering ? (
           <div  className='login-part'>
