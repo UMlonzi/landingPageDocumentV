@@ -1,7 +1,7 @@
 import { Box, Button, Select } from '@mui/material'
 import { borderBottom } from '@mui/system';
 import React from 'react';
-import Welocome from "../../images/welcomeIMG.svg";
+import Welocome from "../../imagess/welcomeIMG.svg";
 import Boxes from '../onLoadBoxes/Boxes';
 import FileOpenIcon from '@mui/icons-material/FileOpen';
 import "./uploadload.css";
