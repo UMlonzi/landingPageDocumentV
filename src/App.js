@@ -14,7 +14,7 @@ function App() {
         <Route path='/Auth' element={<Auth/>}/>
         <Route path='/profile' element={<Profile/>} />
 
-        <Route path='.Dashboard' element={<DashBoardPage/>}/>
+        <Route path='/Dashboard' element={<DashBoardPage/>}/>
       </Routes>
       </BrowserRouter>
     </div>

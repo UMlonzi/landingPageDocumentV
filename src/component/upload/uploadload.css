@@ -1,9 +1,4 @@
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-    box-shadow: 3px 2px 5px lightgray;
-  }
+
   .tableDesign{
     margin-left:2%;
     max-width:95%;
@@ -23,16 +18,22 @@ table {
     border: 4px solid white;
     text-align: left;
     padding: 8px;
+    color:gray;
   }
   tr{
       font-size:2rem;    
+    color:gray;
+
 }
 td{
     font-size:1.5rem;    
+    color:gray;
 
 };
 .tableHeader4{
   color:green
+
+  
 }
 tr:nth-child(odd) {
     background-color: #dddddd;

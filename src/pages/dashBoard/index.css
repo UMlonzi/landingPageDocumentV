@@ -3,25 +3,33 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: stretch;
+   background-color: #F5F5F5;
 }
 
 .pageGrid{
     display:grid;
-    grid-template-columns:5% 30rem 10rem;
-grid-template-rows: 8rem 30rem 30rem auto;
+    grid-template-columns:10rem 40rem 50rem ;
+grid-template-rows: 8rem 30rem 30rem 20rem 30rem;
     grid-template-areas: 
-"header header header header header"
-" .   .   . welcomeMssg ."
-"main main main main main"
-" table table table table table"
-"footer footer footer footer footer";
+"header header header header ."
+" . welcomeMssg welcomeMssg welcomeMssg ."
+". main main main main"
+" . Boxes Boxes Boxes ."
+". SelectBox SelectBox SelectBox .";
   
    
+}
+.table{
+    padding:2rem;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+   width:99%;
+    box-shadow: 3px 2px 5px lightgray;
 }
 .item1{
     grid-area:header;
     align-self: end;
-    grid-column: 2/5;
+ 
 border-bottom: 1px solid black;
 }
 .headingDashboard{
@@ -34,19 +42,38 @@ border-bottom: 1px solid black;
    align-self:center;
     width:auto
 }
+
+
 .item3{
     grid-area:main;
  background-color: #decbae9c;
-
-
+ grid-column:1/5;
 }
 .item4{
     grid-area:Boxes;
-    width:auto;
+    margin-top: 5rem;
+ grid-column:2/5;
 }
 .item5{
-    grid-area: table;
+ margin-top: 2rem;
+    grid-area: SelectBox;
+    justify-self: center;
     width:100%;
+    padding:0px 0px 0px 4rem ;
+}
+.SelectBox{
+    display: flex;
+    flex-direction: column;
+    align-items:center; 
+    justify-content:space-between;
+   height:25rem;    
+    width:75rem;
+    background-color: #D1C7BE;
+    margin-left: 5rem;
+    border-radius: 3rem;
+    padding: 1rem 5rem;
+    box-shadow: 2px 2px 5px gray;
+
 }
 .item16{
     grid-area: footer;
