@@ -1,7 +1,9 @@
 .main{
     width: 100%;
 }
-
+.girl{
+    margin-bottom: 15%;
+}
 
 .hero{
     background-color: #F7F6F2;
@@ -100,6 +102,9 @@ margin-left: 5%;
     background-color: #F7F6F2;
 
 }
+.Marquee .space{
+ 
+justify-content: space-between;}
 .split{
     background-color: #F7F6F2;
     
