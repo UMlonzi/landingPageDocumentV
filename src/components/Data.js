@@ -13,10 +13,12 @@ import equity from './images/d6e7c66584a49398201d2cebfef8c39b5a7a5c47-858x700.we
 import man from './images/85fc19315ea2838b6faa5d6087a859d00c56498b-1314x1180.webp'
 
 
-
 function Data() {
-    const ButtonStyle = { margin: "0px 10px" };
-
+    const ButtonStyle = { margin: "0px 10px" }
+    const navigate=useNavigate();
+    const navigateToAuth=()=>{
+        navigate('/Auth')
+    }
   
 
 
@@ -41,10 +43,8 @@ function Data() {
             <h3>Work with a financial advisor to align <br></br>
             your stock options with your financial <br></br>goals.
             </h3>
-            <button href='/' className='button4'>Get started</button>
+            <button onClick={navigateToAuth} className='button4'>Get started</button>
             <button href='/' className='button3'>Learn more</button>
-
-            
             </div>
 
             <div className='two'>
@@ -68,7 +68,7 @@ function Data() {
             equity, or get cash for your private <br></br>shares without selling them.
             </h3>
 
-            <button href='/' className='button8'>Get started</button>
+            <button onClick={navigateToAuth} className='button8'>Get started</button>
 
             <button href='/' className='button7'>Learn more</button>
 
@@ -83,7 +83,7 @@ function Data() {
             </h3>
 
 
-            <button href='/' className='button4'>Get started</button>
+            <button onClick={navigateToAuth} className='button4'>Get started</button>
             <button href='/' className='button3'>Learn more</button>
             </div>
 

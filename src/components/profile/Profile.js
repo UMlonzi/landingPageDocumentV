@@ -2,10 +2,12 @@ import React from 'react'
 import pic2 from '../images/old_man.png'
 import './profile.css';
 import {FiImage} from 'react-icons/fi';
+import Navbar from '../Navbar';
 
 function Profile() {
   return (
     <div className='profile'>
+        <Navbar/>
             <div className='top-lane'>
                 <h2>Profile</h2>
                 <hr/>
