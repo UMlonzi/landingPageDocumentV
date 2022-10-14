@@ -4,15 +4,14 @@ import {
   createUserWithEmailAndPassword
 } from "firebase/auth";
 import { auth } from "../../firebase";
-// import pic1 from '../../assets/login.jpg';
-// import pic2 from '../../assets/register.jpg'
+import pic1 from '../images/ladyLogin.png';
+import pic2 from '../images/old_man.png'
 import './auth.css';
 import { useNavigate } from "react-router";
-// import TodoSVG from '../assets/todo-svg.svg'
 
 export default function Auth() {
   const [email, setEmail] = useState("");
-//   const navigate=useNavigate();
+  const navigate=useNavigate();
   const [password, setPassword] = useState("");
   const [isRegistering, setIsRegistering] = useState(false);
   const [forgotPass,setPassForgot] = useState(false);
@@ -42,43 +41,38 @@ export default function Auth() {
   const handleSignIn = () => {
     signInWithEmailAndPassword(auth, email, password)
       .then(() => {
-        // navigate("/Dashboard");
+        navigate("/");
       })
       .catch((err) => alert(err.message));
   };
 
   const handleRegister = () => {
-    if (registerInformation.email !== registerInformation.confirmEmail) {
-      alert("Please confirm that email are the same");
-      return;
-    } 
-    else if (
-      registerInformation.password !== registerInformation.confirmPassword
-    ) {
-      alert("Please confirm that password are the same");
-      return;
-    }
+    // if (registerInformation.email !== registerInformation.confirmEmail) {
+    //   alert("Please confirm that email are the same");
+    //   return;
+    // } 
+    // else if (
+    //   registerInformation.password !== registerInformation.confirmPassword
+    // ) {
+    //   alert("Please confirm that password are the same");
+    //   return;
+    // }
     createUserWithEmailAndPassword(
       auth,
       registerInformation.email,
       registerInformation.password
     )
       .then(() => {
-        // navigate("/Dashboard");
+        navigate("/");
       })
       .catch((err) => alert(err.message));
   };
-//   const navigateTohome=()=>{
-//     navigate('/')
-//   }
-
   return (
     <div className="welcome">
       <div className="login-register-container">
         {isRegistering ? (
           <div  className='login-part'>
         <div className='login-form'>
-            
         <div className='login-input'>
         <h2>Register</h2>
             <input
@@ -141,6 +135,9 @@ export default function Auth() {
             </div>
             </div>
           </div>
+           <div className='picture-login1'>
+             <img src={pic2}/>
+           </div>
           </div>
         ) : (
           <div className='login-part'>
@@ -181,6 +178,9 @@ export default function Auth() {
             </button>
             </div>
             </div>
+          </div>
+          <div className='picture-login'>
+            <img src={pic1}/>
           </div>
           </div>
         )}

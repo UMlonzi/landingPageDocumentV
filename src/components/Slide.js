@@ -63,7 +63,7 @@ function Slide() {
            </div>
 
            <div className='marq'>
-          <p> "Secfi was one of the only <br></br> places I could find that could <br></br>
+          <p> "Docuify was one of the only <br></br> places I could find that could <br></br>
            give me accurate calculations <br></br>on AMT."</p>
            <br></br>
            <br></br>
@@ -78,7 +78,7 @@ function Slide() {
            </div>
 
            <div className='marq'>
-          <p> "Secfi felt like the safest <br></br>option. There is upside <br></br>
+          <p> "Docuify felt like the safest <br></br>option. There is upside <br></br>
            and almost no downside, and I <br></br>might as well play it safe."</p>
             <br></br>
            <br></br>
@@ -103,7 +103,7 @@ function Slide() {
            <br></br>
 
           <h6>Emma</h6>
-           <h6>Secfi Wealth client</h6>       
+           <h6>Docuify Wealth client</h6>       
            </div>
             </Marquee>
 

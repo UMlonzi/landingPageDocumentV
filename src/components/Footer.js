@@ -1,5 +1,9 @@
 import React from 'react'
 import './footer.css'
+import twitter from './images/logo (1).png'
+import Linkedin from './images/Linkedin-logo-1-550x550-300x300.png'
+import facebook from './images/Facebook-logo.png'
+
 
 function Footer () {
   return (
@@ -24,17 +28,17 @@ function Footer () {
              <a href=''> Liquidity Flanning </a>
               </li>
             <li>
-             <a href=''>  Secfi Wealth</a>
+             <a href=''>  Docuify Wealth</a>
               </li>
             <li>
               <a href=''>Investment Management</a>
               </li>
             <li>
-              <a href=''> Secfi for Startups</a>
+              <a href=''> Docuify for Startups</a>
 
             </li>
             <li>
-              <a href=''>Secfi Capitec</a>
+              <a href=''>Docuify Capitec</a>
             </li>
 
 
@@ -78,7 +82,7 @@ function Footer () {
 
 
           <li>
-            <a href=''>Secfi Learn</a>
+            <a href=''>Docuify Learn</a>
           </li>
           <li>
           <a href=''>FAQ</a>
@@ -93,8 +97,6 @@ function Footer () {
         <h3>About Us</h3>
 
         <ul>
-
-
 
           <li>
             <a href=''>Our Story</a>
@@ -115,7 +117,23 @@ function Footer () {
 
         <div className='icons'>
 
-<ul>
+          <ul>
+            <li className='icon'>
+              <a >
+              <img src={twitter} alt='twitter' height={60} width={60}/>
+
+              </a>
+              <a>
+              <img src={Linkedin} alt='Linkedin' height={60} width={60}/>
+
+              </a>
+              <a>
+              <img src={facebook} alt='facebook' height={60} width={80}/>
+
+              </a>
+            </li>
+          </ul>
+        <ul>
         <li>
             <a href=''>Privacy Policy</a>
           </li>
