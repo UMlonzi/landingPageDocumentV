@@ -67,10 +67,6 @@ export default function Auth() {
       })
       .catch((err) => alert(err.message));
   };
-//   const navigateTohome=()=>{
-//     navigate('/')
-//   }
-
   return (
     <div className="welcome">
       <div className="login-register-container">
