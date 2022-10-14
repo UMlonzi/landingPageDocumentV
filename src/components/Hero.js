@@ -1,13 +1,18 @@
 import React, {useState} from 'react'
 import Typical from 'react-typical'
-import girl from './images/77bbe8c860a2341b89c7bf4421e94b973eacaaf3-1038x1356.webp'
+import girl from './images/legal-workshop-square-pic-circle-removebg-preview.png'
 import './hero.css'
 import Marquee from "react-fast-marquee";
+import matric from './images/roxann-matric-certificate-1-638.webp'
+
+
+
 
 const Hero = () => {
     const steps = [
-        'Equity Financing', 1000,
-        'Wealth Management', 1000,
+        'Docuify', 1000,
+        'Trust & Partnership', 1000,
+        'Document Verify', 1000,
        
       ];
   return (
@@ -16,10 +21,10 @@ const Hero = () => {
         <div className='content'>
         
           <div>
-        <Typical wrapper="span" steps={steps} loop={1} className={'caca'} />
+        <Typical wrapper="span" steps={steps} loop={Infinity} className={'caca'} />
       </div>
       
-      <h1>for startup employees</h1>
+      <h1>for our clients</h1>
             <p>
             Get equity planning, stock option financing, and wealth <br></br>
             management from advisors that know how stock options <br></br>
@@ -28,7 +33,7 @@ const Hero = () => {
             <button href='/' className='button'>Get started</button>
         </div>
         <div className='img1'>
-            <img src={girl} alt='girl' height={300}/>
+            <img src={girl} alt='girl' className='girl' height={300}/>
             
         </div>
         </div>
@@ -38,8 +43,15 @@ const Hero = () => {
             Documents we work with
            </p>
           <Marquee className='Marquee'>
-           
-             I can be a React component, multiple React components, or just some text.
+            <div className='space'>
+              <div className='change'>Matric Certificate  
+              Higher Certificate 
+              Diploma Certificate 
+              Degree Certificate 
+              Honours Certificate
+              Doctorate Certificate
+              </div>
+              </div>
             </Marquee>
           </div>
         

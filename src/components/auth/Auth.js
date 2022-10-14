@@ -8,6 +8,7 @@ import pic1 from '../images/ladyLogin.png';
 import pic2 from '../images/old_man.png'
 import './auth.css';
 import { useNavigate } from "react-router";
+import Navigationauth from "./Navigationauth";
 
 export default function Auth() {
   const [email, setEmail] = useState("");
@@ -47,16 +48,16 @@ export default function Auth() {
   };
 
   const handleRegister = () => {
-    if (registerInformation.email !== registerInformation.confirmEmail) {
-      alert("Please confirm that email are the same");
-      return;
-    } 
-    else if (
-      registerInformation.password !== registerInformation.confirmPassword
-    ) {
-      alert("Please confirm that password are the same");
-      return;
-    }
+    // if (registerInformation.email !== registerInformation.confirmEmail) {
+    //   alert("Please confirm that email are the same");
+    //   return;
+    // } 
+    // else if (
+    //   registerInformation.password !== registerInformation.confirmPassword
+    // ) {
+    //   alert("Please confirm that password are the same");
+    //   return;
+    // }
     createUserWithEmailAndPassword(
       auth,
       registerInformation.email,
@@ -67,12 +68,9 @@ export default function Auth() {
       })
       .catch((err) => alert(err.message));
   };
-//   const navigateTohome=()=>{
-//     navigate('/')
-//   }
-
   return (
     <div className="welcome">
+      <Navigationauth/>
       <div className="login-register-container">
         {isRegistering ? (
           <div  className='login-part'>
