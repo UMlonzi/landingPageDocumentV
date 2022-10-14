@@ -4,11 +4,9 @@ import twitter from './images/logo (1).png'
 import Linkedin from './images/Linkedin-logo-1-550x550-300x300.png'
 import facebook from './images/Facebook-logo.png'
 
-
 function Footer () {
   return (
     <div className='footer'>
-
         <div className='solutions'>
 
           <h3>SOLUTIONS</h3>
@@ -64,9 +62,7 @@ function Footer () {
           <li>
             <a href=''>Exercise Timing Planner</a>
           </li>
-          <li>
-            <a href=''>Stock Option Exit Calculator </a>
-          </li>
+        
         
 
           </ul>
