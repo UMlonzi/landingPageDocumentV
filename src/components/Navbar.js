@@ -31,20 +31,18 @@ const Navbar = () => {
          
      
                 <li className='nav-item'>
-                    <a href='/'>Learn</a>
-                </li>
-                <li className='nav-item'>
-                    <a href='/'>Plan</a>
-                </li>
-                <li className='nav-item'>
-                    <a href='/'>Finance</a>
-                </li>
-                <li className='nav-item'>
-                    <a href='/'>Wealth</a>
+                    <a href='/'>Home</a>
                 </li>
                 <li className='nav-item'>
                     <a href='/'>About</a>
                 </li>
+                <li className='nav-item'>
+                    <a href='/'>Dashboard</a>
+                </li>
+                <li className='nav-item'>
+                    <a href='/'>Profile</a>
+                </li>
+               
                 <li>
             {/* <a href="#">Programming languages</a>
             <ul class="dropdown">

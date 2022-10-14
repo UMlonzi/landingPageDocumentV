@@ -23,9 +23,9 @@ function Data() {
   return (
     <div className='toppest'>
         <div className='information'>
-            <h4>THE LEADING EQUITY PLANNING PLATFORM</h4>
-            <h1>You've got startup equity. Now what?</h1>
-            <p>see your full net worth including your stock options, compare exercise and selling strategies, and see how taxes impact your net gains</p>
+            <h4>THE LEADING DOCUMENT VERIFY PLATFORM</h4>
+            <h1>You've got your documents. Now what?</h1>
+            <p>see your full demonstartion on how smart contacts automatically execute, control events and the agreement between two parties</p>
         </div>
         <div className='img2'>
         <img src={video} alt='video' height={300}/>
@@ -96,9 +96,9 @@ function Data() {
 
         <div className='divide4'>
             <div className='one4'>
-            <h6>WHY SECFI</h6>
+            <h6>WHY DOCUIFY</h6>
             <h1>
-            Built by startup <br></br>employees
+            SECURE A FASTER <br></br>AND MORE PARTNERSHIP
            </h1>
             </div>
 
