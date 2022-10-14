@@ -36,12 +36,18 @@ const Navbar = () => {
                     <a href='/'>About</a>
                 </li>
                 <li className='nav-item'>
+
+                    <a href='/'>Plan</a>
+                </li>
+                <li className='nav-item'>
+                    <a href='/'>Contact Us</a>
+
                     <a href='/Dashboard'>Dashboard</a>
                 </li>
                 <li className='nav-item'>
                     <a href='/Profile'>Profile</a>
+
                 </li>
-               
                 <li>
             {/* <a href="#">Programming languages</a>
             <ul class="dropdown">
