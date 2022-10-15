@@ -50,8 +50,16 @@ setdisplayNavLinks(false)
                     <a href='/'>Home</a>
                 </li>
                 <li className='nav-item'>
-                    <a href='/'>About</a>
+                    <a href='/About'>About</a>
                 </li>
+
+                <li className='nav-item'>
+                    <a href='/Plan'>Plan</a>
+                </li>
+                <li className='nav-item'>
+                    <a href='/'>Contact Us</a>
+                </li>
+
 
                 { displayNavLinks &&
 (()=>{
