@@ -1,6 +1,6 @@
 import React from 'react';
 import './mission.css'
-import employees from './images/960x0.jpeg'
+import guy from './images/text-messaging-handsome-young-african-man-using-smart-phone-while-standing-against-grey-background_425904-39398.jpeg'
 
 
 function Mission() {
@@ -14,9 +14,11 @@ function Mission() {
                   We help clients verify their personal documents without being tempted or stolen.
                  
                 </h1>
+                <p>Equity is complex, stressful, and takes a back seat to the hard work that goes into building a company. But we got it wrong in the past. And we don’t want you to.</p>
                 
             </div>
             <div className='mission-img'>
+            <img src={guy} alt='guy' className='guy'/>
 
             </div>
         </div>
