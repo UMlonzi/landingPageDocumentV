@@ -1,24 +1,58 @@
 .aboutUs{
-    background-color: red;
-    height: 50vh;
+    background-color: #F7F6F2;
+    height: 65vh;
     display: flex;
     width: 100%;
+    /* background-color: red; */
 }
 
+
 .aboutUs .employees{
-    background-color: yellow;
-    height: 50vh;
-    width: 50%;
+    /* background-color: yellow; */
+    height: 65vh;
+    width: 60%;
 }
 
 .employees .employer{
-    width: 80%;
+    width: 84%;
+    height: 104%;
     margin-left: 10%;
     margin-top: 10%;
 }
 
 .aboutUs .story{
-    background-color: blue;
-    height: 50vh;
+    /* background-color: blue; */
+    height: 60vh;
     width: 50%;
+    
+}
+
+.story h6{
+    color: #74736d;
+    margin-top: 25%;
+    margin-left: 10%;
+}
+
+.story h1{
+    color: #74736d;
+    margin-left: 10%;
+
+}
+
+.story p{
+    color: #74736d;
+    margin-left: 10%;
+
+}
+.talk{
+    padding: 17px 20px;
+    font-size: 1rem;
+    color: white;
+    font-weight: 700;
+    background-color: rgb(73, 20, 20);
+    border-radius: 24px;
+    cursor: pointer;
+    width: 23%;
+    margin-top: 4%;
+    margin-left: 10%;
 }

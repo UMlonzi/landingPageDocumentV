@@ -1,6 +1,7 @@
 import React from 'react';
 import  Navbar from '../../components/Navbar';
 import About from '../../components/About';
+import Mission from '../../components/Mission';
 
 
 function AboutPage() {
@@ -9,6 +10,7 @@ function AboutPage() {
     <div>
       <Navbar/>
       <About/>
+      <Mission/>
     </div>
   )
 }

@@ -17,7 +17,7 @@ function About() {
             <br></br>
             <h1>Hi there, we’re Docuify </h1>
             <p>We are the company that provides a largest verifying of documents</p>
-            <button>Talk with us</button>
+            <button className='talk'>Talk with us</button>
         </div>
     </div>
   )

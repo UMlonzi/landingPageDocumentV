@@ -1,0 +1,23 @@
+.mission{
+    background-color: #F7F6F2;
+    height: 65vh;
+    display: flex;
+    width: 100%;
+    background-color: red;
+    margin-top: 7%;
+}
+
+
+.mission .our-mission{
+    background-color: yellow;
+    height: 65vh;
+    width: 60%;
+    margin-left: 1%;
+    margin-top: 10%;
+}
+
+.mission .mission-img{
+    height: 60vh;
+    width: 50%;
+    background-color: blue;
+}
