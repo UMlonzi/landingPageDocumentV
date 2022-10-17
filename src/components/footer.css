@@ -2,7 +2,7 @@
         /* background-image: url(./images/logo_3-removebg-preview.png); */
     display: flex;
     width: 100%;
-    height: 70vh;
+    height: 75vh;
     /* background-position: center;
     background-size: cover;
     align-items: center;
@@ -10,7 +10,17 @@
     background-repeat: no-repeat; */
         /* opacity:0.1; */
 }
+.all_rights{
+    width: 100%;
+    height: 10vh;
+    background-color: red;
+    display: flex;
 
+}
+.all_rights .condition{
+    text-align: left;
+
+}
 .solutions{
     width: 20%;
     text-align: left;
@@ -27,6 +37,13 @@
     margin-left: 30%;
   font-size:medium
 
+}
+.solutions p{
+    color: #b5b6b3;
+    margin-top: 22%;
+    margin-bottom: 12%;
+    margin-left: 30%;
+    font-size: small;
 }
 .solutions li {
     margin-bottom: 8%;
@@ -152,9 +169,11 @@
 
 }
 .icons .icon{
-    margin-top: 13%;
+    margin-top: 23%;
     margin-left: 15%;
     margin-bottom: 11%;
+    color: #97B1B3;
+
 }
 .icons li {
     margin-bottom: 8%;
@@ -165,10 +184,20 @@
 }
 .icons a {
     color:#adb2b7;
+
     
+}
+.icon .twitter{
+    margin-left: 20%;
+}
+.icon .facebook{
+    margin-left: 11%;
+}
+.icon .Linkedin{
+margin-left: 10%;
 }
 .icons a:hover {
     padding-bottom: 1px ;
     border-bottom: 1px solid#adb2b7;
-    
+
 }
