@@ -1,7 +1,10 @@
 import { Box, Button, Select } from '@mui/material'
 import { borderBottom } from '@mui/system';
-import React from 'react';
+
+import React,{useState}from 'react';
 import Welocome from "../../imagess/welcomeIMG.svg";
+
+
 import Boxes from '../onLoadBoxes/Boxes';
 import FileOpenIcon from '@mui/icons-material/FileOpen';
 import "./uploadload.css";
@@ -10,15 +13,20 @@ import DescriptionIcon from '@mui/icons-material/Description';
 // ========================================upload files table====================
 function DisplayUplaodTable(){
     console.log("hello");
+    const [uplaodFileArr,setUplaodFileArr]=useState([]);
+    const handlefileUploads=(e)=>{
+console.log(e);
+    }
     return(
         <>
 <div style={{position: "relative"}}>
 <button
-  style={{ cursor:"pointer",position:"absolute",bottom:"21rem",right:"0px",width:"10rem",float:"right",height:"4rem",fontSize:"20px",borderRadius:"1.1rem",
+  style={{ 
+    cursor:"pointer",position:"absolute",bottom:"21rem",right:"0px",width:"10rem",float:"right",height:"4rem",fontSize:"20px",borderRadius:"1.1rem",
   backgroundColor:"black", color:"white",}}>
     <label for="myfile">Select a file</label>
-  <input type="file" id="myfile" name="myfile" accept='.png'
-   style={{color:"rgba(0,0,0,0"}} onClick={(e)=>console.log(e)}></input>
+  <input type="file" id="myfile" name="myfile" accept='.pdf,image/jpg,image/png'
+   style={{color:"rgba(0,0,0,0"}} onClick={handlefileUploads}></input>
   </button>
 
 <table className='table'>
@@ -28,6 +36,8 @@ function DisplayUplaodTable(){
         <th>Created On</th>
         <th>From</th>
         <th>Status</th>
+        <th></th>
+
     </tr>
     <tr>
 <td style={{width:"100px",textAlign:"center"}}><DescriptionIcon sx={{fontSize:"4.0rem"}}/></td>

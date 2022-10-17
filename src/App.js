@@ -4,6 +4,8 @@ import Auth from './components/auth/Auth';
 import LandingPage from './components/LandingPage';
 import Profile from './components/profile/Profile';
 import DashBoardPage from './pages/dashBoard';
+import AboutPage from './pages/about/AboutPage';
+import PlanPage from './pages/plan/PlanPage';
 
 function App() {
   return (
@@ -14,6 +16,9 @@ function App() {
         <Route path='/Auth' element={<Auth/>}/>
         <Route path='/profile' element={<Profile/>} />
         <Route path='/Dashboard' element={<DashBoardPage/>}/>
+        <Route path='/About' element={<AboutPage/>}/>
+        <Route path='/Plan' element={<PlanPage/>}/>
+
       </Routes>
       </BrowserRouter>
     </div>
