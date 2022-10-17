@@ -47,7 +47,7 @@ function Footer () {
         </div>
 
         <div className='Tools'>
-        <h3>Tools</h3>
+        <h3>TOOLS</h3>
 
         <ul>
 
@@ -74,7 +74,7 @@ function Footer () {
 
         <div className='Learn'>
 
-        <h3>Learn</h3>
+        <h3>LEARN</h3>
 
         <ul>
 
@@ -93,7 +93,7 @@ function Footer () {
 
         <div className='About-Us'>
 
-        <h3>About Us</h3>
+        <h3>ABOUT US</h3>
 
         <ul>
 

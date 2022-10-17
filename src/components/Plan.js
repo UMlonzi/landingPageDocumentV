@@ -13,7 +13,7 @@ function Plan() {
 
     </div>
     <div className='target'>
-        <h6>OUR PLAN</h6>
+        <h6>OUR PLANS</h6>
         <br></br>
         <h1>Pricing that scales to <br></br>fit your needs</h1>
         <p>We are the company that provides a largest <br></br>verifying of documents</p>

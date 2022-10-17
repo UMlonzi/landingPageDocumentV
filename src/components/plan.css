@@ -1,3 +1,5 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300;1,400;1,500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;1,300;1,400;1,500&display=swap');
 .Plan{
     background-color: #F7F6F2;
     height: 55vh;
@@ -28,13 +30,17 @@
     color: #74736d;
     margin-top: 13%;
     margin-left: 15%;
-   
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Nunito', sans-serif;
+
 }
 
 .target h1{
     color: #463f3c;
     margin-left: 15%;
     margin-bottom: 2%;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Nunito', sans-serif;
 
 }
 
@@ -42,6 +48,8 @@
     color: #463f3c;
     margin-left: 15%;
     margin-bottom: 2%;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Nunito', sans-serif;
 
 }
 
@@ -57,6 +65,7 @@
     width: 22%;
     margin-left: 15%;
     margin-top: 2%;
+    font-family: 'Nunito', sans-serif;
 
 }
 .price_button:hover{
