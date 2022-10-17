@@ -20,7 +20,6 @@ console.log(innerWidth);
 <Navbar/>
 
 <Navdash/>
-<h2 class="headingDashboard">Dashboard</h2>
 </div>
 <div className='item2'> <WelcomeCard /></div>
 <div className='item3'><DisplayUplaodTable/></div>
