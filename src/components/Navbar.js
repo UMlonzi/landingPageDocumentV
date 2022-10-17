@@ -43,7 +43,7 @@ setdisplayNavLinks(false)
                 {click ? (<FaTimes size={30} style={{ color: '#ffffff' }} />)
                  : (<FaBars size={30} style={{ color: '#ffffff' }} />)}
             </div>
-            <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <ul className={click ? "nav-menu active" : "nav-menu"} style={{display:'flex',padding:"7px",margin:"auto"}}>
          
      
                 <li className='nav-item'>
@@ -60,24 +60,19 @@ setdisplayNavLinks(false)
                     <a href='/'>Contact Us</a>
                 </li>
 
+                <li className='nav-item'>
+
+                    <a href='/'>Plan</a>
+                </li>
 
                 { displayNavLinks &&
 (()=>{
     return(
         <>
-         <li className='nav-item'>
-                    <a href='/'>Dashboard</a>
-
-                    </li>
-                <li className='nav-item'>
-
-                    <a href='/'>Plan</a>
-                </li>
-                <li className='nav-item'>
-                    <a href='/'>Contact Us</a>
-
-                    <a href='/Dashboard'>Dashboard</a>
-                </li>
+        <li>
+        <a href='/Dashboard' className='nav-item'>Dashboard</a>
+        </li>
+       
                 <li className='nav-item'>
                     <a href='/Profile'>Profile</a>
 

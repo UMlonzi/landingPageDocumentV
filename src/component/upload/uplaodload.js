@@ -22,14 +22,7 @@ function DisplayUplaodTable(){
     return(
         <>
 <div style={{position: "relative"}}>
-<button
-  style={{ 
-    cursor:"pointer",position:"absolute",bottom:"21rem",right:"0px",width:"10rem",float:"right",height:"4rem",fontSize:"20px",borderRadius:"1.1rem",
-  backgroundColor:"black", color:"white",}}>
-    <label for="myfile">Select a file</label>
-  <input type="file" id="myfile" name="myfile" accept='.pdf,image/jpg,image/png'
-   style={{color:"rgba(0,0,0,0"}} onClick={handlefileUploads}></input>
-  </button>
+
 
 <table className='table'>
     <tr>
@@ -113,15 +106,14 @@ const UplaodToBlockchainBoxes=()=>{
 
   return(
     <>
-    <h2 style={{float:"right"}}>Sent (3)</h2>
     <Box sx={{height:"100%",
     width:"100%",alignItems:"flex-start",lineHeight:"2em",display:"flex",flexDirection:"row",justifyContent:"space-around"}}>
         <br/>
-        <Boxes color={"#1B411A"} title={"Verified"}/>
+        <Boxes color={"rgba(46,126,40)"} title={"Verified"}/>
         <br/>
-        <Boxes color={"#5E1919"} title={"Rejected"}/>
+        <Boxes color={"rgba(197, 57, 19)"} title={"Rejected"}/>
         <br/>
-        <Boxes color={"#785920"} title={"Pending"}/>
+        <Boxes color={"rgba(255,161,54)"} title={"Pending"}/>
     </Box>
         </>
     )

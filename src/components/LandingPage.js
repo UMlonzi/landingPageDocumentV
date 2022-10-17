@@ -4,6 +4,7 @@ import Data from "./Data";
 import Hero from "./Hero";
 import Slide from "./Slide";
 import  Footer  from "./Footer";
+import { getAuth } from "firebase/auth";
 
 
 

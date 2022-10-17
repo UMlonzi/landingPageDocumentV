@@ -1,20 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;1,300;1,400;1,500&display=swap');
+
 body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: stretch;
-   background-color: #F5F5F5;
+   background-color: white;
+   font-family: 'Nunito', sans-serif;
 }
 
 .pageGrid{
     display:grid;
     flex-shrink: 1;
-    grid-template-columns:1fr 4fr 1fr;
-gap:20px;
+    grid-template-columns:350px 3fr 1fr;
+    grid-template-rows: 30rem;
     grid-template-areas: 
-"nav  header header "
-"nav main ."
-"nav main .";
+"nav  header TimeTable "
+"nav main TimeTable"
+"nav main TimeTable";
    
 }
 .table{
@@ -25,22 +28,33 @@ gap:20px;
     box-shadow: 3px 2px 5px lightgray;
 }
 .item1{
+position: relative;;
     grid-area:nav;
-    background-color: green;
- border-radius: 0px 10rem 0rem 0rem;
-  padding: 10rem 0 0 0rem;
-
+    padding: 15rem 0 0 0rem;
+    text-align: center;
+    font-weight:500;
+}
+.navLI li{
+    display: flex;
+    justify-content: space-evenly;
+    height:4.5rem;
+   color:black;
+   padding:1.5rem 3rem 2rem 0rem;
+   font-size: 1.5rem;
+   width: 100%;
+}
+.navLI li:hover{
+   color:rgba(121,50,128);
 }
 .headingDashboard{
     width:150px;
 }
 .item2{
   grid-area: header;
-  padding: 10rem 0 0 0rem;
-background-color: orange;
-align-self: end;
-border-bottom: 0.5rem solid gray;
-
+  padding: 2rem 0 0 0rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
 
 }
 
@@ -48,7 +62,14 @@ border-bottom: 0.5rem solid gray;
 .item3{
     grid-area:main;
  background-color: #F7F5F2;
+ border-radius:0 0 2rem 0 ;
+ display: flex;
+ align-items: center;
 
+}
+.item4{
+    grid-area:TimeTable;
+    background: rgba(252,245,235);
 }
 
 .item5{
