@@ -2,9 +2,16 @@ import React from 'react';
 import './plan.css'
 import plan from './images/craft-financial-business-plan-1.jpeg'
 
+import { useNavigate, useNavigation } from 'react-router';
 
-function Plan() {
 
+const Plan = () => {
+
+// const handleClick = () => setClick(!click)
+const navigate=useNavigate();
+const navigateToContactUs=()=>{
+    navigate('/ContactUs')
+}
   return (
     <div className='Plan'>
 
@@ -17,7 +24,7 @@ function Plan() {
         <br></br>
         <h1>Pricing that scales to <br></br>fit your needs</h1>
         <p>We are the company that provides a largest <br></br>verifying of documents</p>
-        <button className='price_button'>Get Started</button>
+        <button onClick={navigateToAuth}className='price_button'>Get Started</button>
     </div>
 </div>
   )
