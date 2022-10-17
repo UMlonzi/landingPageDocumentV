@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;1,300;1,400;1,500&display=swap');
+
 .mission{
     /* background-color: #F7F6F2; */
     height: 70vh;
@@ -5,6 +7,8 @@
     width: 100%;
     /* background-color: red; */
     margin-top: 7%;
+    background-color: #F7F6F2;
+
 }
 
 
@@ -18,14 +22,23 @@
 .our-mission h6{
     margin-left: 8%;
     margin-top: 20%;
+    font-family: 'Nunito', sans-serif;
+    color: #463f3c;
+
 }
 .our-mission h1{
     margin-left: 8%;
-    margin-top: 1%;
+    margin-top: 2%;
+    font-family: 'Nunito', sans-serif;
+    color: #463f3c;
+
 }
 .our-mission p{
     margin-left: 8%;
-    margin-top: 1%;
+    margin-top: 2%;
+    font-family: 'Nunito', sans-serif;
+    color: #463f3c;
+
 }
 
 .mission .mission-img{

@@ -11,7 +11,8 @@ function Mission() {
             <div className='our-mission'>
                 <h6>OUR MISSION</h6>
                 <h1>
-                  We help clients verify their personal documents without being tempted or stolen.
+                  We help clients verify their <br></br>personal documents without <br></br>
+                  being tempted or stolen.
                  
                 </h1>
                 <p>Equity is complex, stressful, and takes a back seat to the hard work that goes into building a company. But we got it wrong in the past. And we don’t want you to.</p>

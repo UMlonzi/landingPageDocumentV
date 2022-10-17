@@ -57,7 +57,7 @@ setdisplayNavLinks(false)
                     <a href='/Plan'>Plan</a>
                 </li>
                 <li className='nav-item'>
-                    <a href='/'>Contact Us</a>
+                    <a href='/ContactUs'>Contact Us</a>
                 </li>
 
 
@@ -74,10 +74,9 @@ setdisplayNavLinks(false)
                     <a href='/'>Plan</a>
                 </li>
                 <li className='nav-item'>
-                    <a href='/'>Contact Us</a>
+                    <a href='/ContactUs'>Contact Us</a>
 
                     <a href='/Dashboard'>Dashboard</a>
-
                 </li>
                 <li className='nav-item'>
                     <a href='/Profile'>Profile</a>

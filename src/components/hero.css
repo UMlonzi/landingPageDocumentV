@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;1,300;1,400;1,500&display=swap');
+
 .main{
     width: 100%;
 }
@@ -38,16 +40,15 @@ z-index: -1;
 }
 .hero h1{
     margin-bottom: 2%;
-    font-family: reckless,serif;
+    font-family: 'Nunito', sans-serif;
     white-space: pre-wrap;
     letter-spacing: .02cm;
     font-weight: 100;
     margin-left: 15%;
 }
 .hero p{
-    font-family: reckless,serif;
+    font-family: 'Nunito', sans-serif;
     margin-left: 15%;
-
 }
 
 .button {
@@ -62,6 +63,7 @@ z-index: -1;
     width: 35%;
     margin-top: 2%;
     margin-left: 15%;
+    font-family: 'Nunito', sans-serif;
 
   }
   
@@ -71,7 +73,7 @@ z-index: -1;
     border: white;
   }
   .caca{
-    font-family: reckless,serif;
+    font-family: 'Nunito', sans-serif;
     white-space: pre-wrap;
     letter-spacing: .02cm;
     font-size: xx-large;
@@ -100,6 +102,7 @@ margin-left: 5%;
     font-weight: 600;
     font-size: xx-large;
     background-color: #F7F6F2;
+    font-family: 'Nunito', sans-serif;
 
 }
 .Marquee .space{
@@ -115,9 +118,8 @@ justify-content: space-between;}
 }
 .split p{
     width: 30%;
-    font-family: reckless,serif;
     color: #d0d2d1;
     padding-left: 5%;
     padding-top: 3%;
-
+    font-family: 'Nunito', sans-serif;
 }
