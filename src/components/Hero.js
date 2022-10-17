@@ -3,7 +3,8 @@ import Typical from 'react-typical'
 import girl from './images/legal-workshop-square-pic-circle-removebg-preview.png'
 import './hero.css'
 import Marquee from "react-fast-marquee";
-import matric from './images/roxann-matric-certificate-1-638.webp'
+import matric from './images/roxann-matric-certificate-1-638.webp';
+import { useNavigate } from 'react-router';
 
 
 
@@ -15,6 +16,10 @@ const Hero = () => {
         'Document Verify', 1000,
        
       ];
+      const navigate=useNavigate();
+    const navigateToAuth=()=>{
+        navigate('/Auth')
+    }
   return (
     <div className='main'>
         <div className='hero'>
@@ -30,7 +35,7 @@ const Hero = () => {
             management from advisors that know how stock options <br></br>
             and equity can help grow your wealth.
             </p>
-            <button href='/' className='button'>Get started</button>
+            <button onClick={navigateToAuth} className='button'>Get started</button>
         </div>
         <div className='img1'>
             <img src={girl} alt='girl' className='girl' height={300}/>

@@ -1,0 +1,41 @@
+.mission{
+    /* background-color: #F7F6F2; */
+    height: 70vh;
+    display: flex;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 7%;
+}
+
+
+.mission .our-mission{
+    /* background-color: yellow; */
+    height: 70vh;
+    width: 60%;
+  
+}
+
+.our-mission h6{
+    margin-left: 8%;
+    margin-top: 20%;
+}
+.our-mission h1{
+    margin-left: 8%;
+    margin-top: 1%;
+}
+.our-mission p{
+    margin-left: 8%;
+    margin-top: 1%;
+}
+
+.mission .mission-img{
+    height: 70vh;
+    width: 50%;
+    /* background-color: blue; */
+}
+.mission-img .guy{
+    width: 85%;
+    height: 88%;
+    margin-left: 12%;
+    margin-top: 8%;
+}

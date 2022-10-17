@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { useNavigate } from 'react-router';
+import { useNavigate, useNavigation } from 'react-router';
 import {FaBars, FaTimes} from 'react-icons/fa'
 import logo from './images/logo_3-removebg-preview.png'
 import {  Search } from '@rsuite/icons';
@@ -7,13 +7,14 @@ import './navbar.css'
 import { IconButton } from "rsuite";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 
-
 const Navbar = () => {
     const [click, setClick] = useState(false)
     const ButtonStyle = { margin: "0px 10px" };
-    const navigate=useNavigate();
+
 const [displayNavLinks,setdisplayNavLinks]=useState(false);
+
     const handleClick = () => setClick(!click)
+    const navigate=useNavigate();
     const navigateToAuth=()=>{
         navigate('/Auth')
     }
@@ -49,24 +50,44 @@ setdisplayNavLinks(false)
                     <a href='/'>Home</a>
                 </li>
                 <li className='nav-item'>
-                    <a href='/'>About</a>
+                    <a href='/About'>About</a>
                 </li>
+
+                <li className='nav-item'>
+                    <a href='/Plan'>Plan</a>
+                </li>
+                <li className='nav-item'>
+                    <a href='/'>Contact Us</a>
+                </li>
+
+
                 { displayNavLinks &&
 (()=>{
     return(
         <>
          <li className='nav-item'>
                     <a href='/'>Dashboard</a>
+
+                    </li>
+                <li className='nav-item'>
+
+                    <a href='/'>Plan</a>
                 </li>
                 <li className='nav-item'>
-                    <a href='/'>Profile</a>
+                    <a href='/'>Contact Us</a>
+
+                    <a href='/Dashboard'>Dashboard</a>
                 </li>
+                <li className='nav-item'>
+                    <a href='/Profile'>Profile</a>
+
+                </li>
+
         </>
     )
 })()
                 }
-               
-               
+
                 <li>
             {/* <a href="#">Programming languages</a>
             <ul class="dropdown">
@@ -77,7 +98,7 @@ setdisplayNavLinks(false)
         </li>
             </ul>
             <button onClick={navigateToAuth} className='button2'>Log in</button>
-            <button href='/' className='button1'>Get started</button>
+            <button onClick={navigateToAuth} className='button1'>Get started</button>
             <div>
             <IconButton icon={<Search />} className='ButtonStyle' />
             </div>
