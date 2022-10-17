@@ -12,7 +12,9 @@ function DisplayUplaodTable(){
     console.log("hello");
     const [uplaodFileArr,setUplaodFileArr]=useState([]);
     const handlefileUploads=(e)=>{
-console.log(e);
+        if(!e.target.value)return;
+        setUplaodFileArr(arr=>arr)
+        console.log(e.target.value);
     }
     return(
         <>

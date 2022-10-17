@@ -1,7 +1,4 @@
 
-
-
-
 import Navbar from "./Navbar";
 import Data from "./Data";
 import Hero from "./Hero";
@@ -11,6 +8,7 @@ import  Footer  from "./Footer";
 
 
 function LandingPage() {
+const auth=getAuth();
   return (
     <div>
         <Navbar/>
