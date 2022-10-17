@@ -8,16 +8,16 @@ function Plan() {
   return (
     <div className='Plan'>
 
-    <div className='plans'>
+    <div className='scale'>
     <img src={plan} alt='plan' className='Plans'/>
 
     </div>
-    <div className='story'>
+    <div className='target'>
         <h6>OUR PLAN</h6>
         <br></br>
-        <h1>Pricing that scales to fit your needs</h1>
-        <p>We are the company that provides a largest verifying of documents</p>
-        <button></button>
+        <h1>Pricing that scales to <br></br>fit your needs</h1>
+        <p>We are the company that provides a largest <br></br>verifying of documents</p>
+        <button className='price_button'>Get Started</button>
     </div>
 </div>
   )

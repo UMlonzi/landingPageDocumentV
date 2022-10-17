@@ -1,24 +1,66 @@
 .Plan{
-    background-color: red;
-    height: 50vh;
+    background-color: #F7F6F2;
+    height: 55vh;
     display: flex;
     width: 100%;
 }
 
-.plans .employees{
-    background-color: yellow;
+.Plan .scale{
+    /* background-color: yellow; */
     height: 50vh;
     width: 50%;
 }
 
-.plans .Plans{
+.scale .Plans{
     width: 80%;
-    margin-left: 10%;
+    margin-left: 13%;
     margin-top: 10%;
 }
 
-.aboutUs .story{
+.Plan .target{
     /* background-color: blue; */
     height: 50vh;
     width: 50%;
+    
 }
+
+.target h6{
+    color: #74736d;
+    margin-top: 13%;
+    margin-left: 15%;
+   
+}
+
+.target h1{
+    color: #463f3c;
+    margin-left: 15%;
+    margin-bottom: 2%;
+
+}
+
+.target p{
+    color: #463f3c;
+    margin-left: 15%;
+    margin-bottom: 2%;
+
+}
+
+.target .price_button{
+    padding: 17px 20px;
+    font-size: 1rem;
+    color: white;
+    font-weight: 700;
+    background-color: #463f3c;
+    border: 1px  ;
+    border-radius: 24px;
+    cursor: pointer;
+    width: 22%;
+    margin-left: 15%;
+    margin-top: 2%;
+
+}
+.price_button:hover{
+    border: 1px solid #d1cfc8;
+    background-color: white;
+    color: #463f3c;
+  }
