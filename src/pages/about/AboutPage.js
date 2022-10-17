@@ -7,11 +7,13 @@ import Mission from '../../components/Mission';
 function AboutPage() {
 
   return (
+
     <div>
       <Navbar/>
       <About/>
       <Mission/>
     </div>
+    
   )
 }
 
