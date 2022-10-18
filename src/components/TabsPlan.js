@@ -19,7 +19,7 @@ const TabsPlan = () => {
     }
     return (
         <div className='boxes'>
-            <div className='space_boxes'>
+            {/* <div className='space_boxes'>
             <Tabs className='Tabs'         >
                 <Tab id="rx" title="Monthly"  className='title' panel={
                     <div className='basic'>
@@ -36,7 +36,7 @@ const TabsPlan = () => {
                     
                 } />
             </Tabs>
-            </div>
+            </div> */}
         </div >
 
     );
