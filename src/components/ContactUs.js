@@ -74,7 +74,7 @@ const ContactUs = () => {
         </div>
         <label className='Label'>Message</label><br></br>
           <input className='type' placeholder='Type your message...'/>
-        <button type="submit">Submit</button>
+        <button className='send' type="submit">Send message</button>
       </form>
         </div>
         

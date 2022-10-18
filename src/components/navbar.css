@@ -70,7 +70,7 @@
     cursor: pointer;
     width: 12%;
     font-family: 'Nunito', sans-serif;
-
+margin-left: 1%;
   }
   
   .button1:hover{
@@ -89,7 +89,7 @@
     cursor: pointer;
     width: 12%;
     font-family: 'Nunito', sans-serif;
-
+    
   }
   
   .button2:hover{
@@ -101,6 +101,9 @@
 padding: 90%; 
 border-radius: 50%;
 border: 1px solid black;
+
+
+
 }
 .ButtonStyle:hover{
     background-color: black;

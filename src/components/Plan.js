@@ -11,10 +11,10 @@ const Plan = () => {
 
 
 // const handleClick = () => setClick(!click)
-// const navigate=useNavigate();
-// const navigateToContactUs=()=>{
-//     navigate('/Auth')
-// }
+const navigate=useNavigate();
+const navigateToContactUs=()=>{
+    navigate('/Auth')
+}
 
   return (
     <div>
