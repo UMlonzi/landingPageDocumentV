@@ -5,7 +5,7 @@
     height: 65vh;
     display: flex;
     width: 100%;
-    /* background-color: red; */
+    background-color: red;
 }
 
 
@@ -15,21 +15,21 @@
     width: 60%;
 }
 
-.employees .employer{
+.employees .happy_employees{
     width: 84%;
     height: 104%;
     margin-left: 10%;
     margin-top: 10%;
 }
 
-.aboutUs .story{
+.aboutUs .story_1{
     /* background-color: blue; */
     height: 60vh;
     width: 50%;
     
 }
 
-.story h6{
+.story_1 h6{
     color: #74736d;
     margin-top: 25%;
     margin-left: 10%;
@@ -37,37 +37,17 @@
 
 }
 
-.story h1{
+.story_1 h1{
     color: #463f3c;
     margin-left: 10%;
     font-family: 'Nunito', sans-serif;
 
 }
 
-.story p{
+.story_1 p{
     color: #463f3c;
     margin-left: 10%;
+    margin-top: 2%;
     font-family: 'Nunito', sans-serif;
-
-}
-.talk{
-    padding: 17px 20px;
-    font-size: 1rem;
-    color: white;
-    font-weight: 700;
-    background-color: #463f3c;
-    border-radius: 24px;
-    cursor: pointer;
-    width: 23%;
-    margin-top: 4%;
-    margin-left: 10%;
-    font-family: 'Nunito', sans-serif;
-
-}
-
-.talk:hover{
-    border: 1px solid #d1cfc8;
-    background-color: white;
-    color: #463f3c;
 
 }
