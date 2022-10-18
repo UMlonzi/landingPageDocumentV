@@ -27,6 +27,7 @@ const Navdash = () => {
                 {click ? (<FaTimes size={30} style={{ color: '#ffffff' }} />)
                  : (<FaBars size={30} style={{ color: '#ffffff' }} />)}
             </div>
+            
             <ul className={click ? "nav-menu active" : "nav-menu"}>
          
      
@@ -50,6 +51,7 @@ const Navdash = () => {
                 <li><a href="#">JAVA</a></li>
                 <li><a href="#">PHP</a></li>
             </ul> */}
+
         </li>
             </ul>
             <button onClick={navigateToAuth} className='button2'>Log out</button>
