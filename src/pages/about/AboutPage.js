@@ -8,12 +8,14 @@ import Footer from '../../components/Footer';
 function AboutPage() {
 
   return (
+
     <div>
       <Navbar/>
       <About/>
       <Mission/>
       <Footer/>
     </div>
+    
   )
 }
 
