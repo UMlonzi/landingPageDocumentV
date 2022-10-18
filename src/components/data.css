@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;1,300;1,400;1,500&display=swap');
 .toppest{
     justify-content: center;
     align-items: center;
@@ -11,14 +12,14 @@
 }
 .information h4{
     color: #74736d;
-    font-family: reckless,serif;
+    font-family: 'Nunito', sans-serif;
     margin-top: 5%;
     font-style:normal;
 
 
 }
 .information h1{
-    font-family: reckless,serif;
+    font-family: 'Nunito', sans-serif;
     margin-top: 4%;
     font-style:normal;
 
@@ -28,6 +29,7 @@
 .information p{
     margin-top: 4%;
     font-style:normal;
+    font-family: 'Nunito', sans-serif;
 
 }
 
@@ -40,7 +42,7 @@ margin-left: 30%;
 }
 
 .img2 h1{
-    font-family: reckless,serif;
+    font-family: 'Nunito', sans-serif;
     margin-top: 6%;
     font-style:normal;
     margin-left: 7%;
@@ -85,14 +87,14 @@ height: 70vh;
 
 .one h5{
     color: #74736d;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Nunito', sans-serif;
     margin-top: 5%;
     font-style:normal;
     margin-left: 30%;
 
 }
 .one h3{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Nunito', sans-serif;
     margin-top: 4%;
     font-style:normal;
     margin-left: 30%;
@@ -119,6 +121,7 @@ height: 70vh;
     cursor: pointer;
     width: 22%;
     margin-left: 31%;
+    font-family: 'Nunito', sans-serif;
 
   }
   
@@ -139,6 +142,7 @@ height: 70vh;
     width: 22%;
     margin-left: 2%;
     margin-top: 4%;
+    font-family: 'Nunito', sans-serif;
 
   }
   
@@ -176,7 +180,7 @@ height: 70vh;
 }
 .one1 h5{
     color: #74736d;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Nunito', sans-serif;
     margin-top: 5%;
     font-style:normal;
     margin-left: 20%;
@@ -185,7 +189,7 @@ height: 70vh;
 
 }
 .one1 h3{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Nunito', sans-serif;
     margin-top: 4%;
     font-style:normal;
     margin-left: 20%;
@@ -202,7 +206,8 @@ height: 70vh;
 }
 
 .button8 {
-   
+    font-family: 'Nunito', sans-serif;
+
     padding: 17px 20px;
     font-size: 1rem;
     color: white;
@@ -222,7 +227,8 @@ height: 70vh;
     border: white;
   }
   .button7 {
-    
+    font-family: 'Nunito', sans-serif;
+
     padding: 17px 20px;
     font-size: 1rem;
     color: black;
@@ -289,6 +295,8 @@ height: 70vh;
     border-radius: 24px;
     cursor: pointer;
     width: 12%;
+    font-family: 'Nunito', sans-serif;
+
   }
   
   .button5:hover{
@@ -306,6 +314,8 @@ height: 70vh;
     border-radius: 24px;
     cursor: pointer;
     width: 12%;
+    font-family: 'Nunito', sans-serif;
+
   }
   
   .button6:hover{
@@ -343,7 +353,7 @@ height: 70vh;
 }
 .one4 h6{
     color: #74736d;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-style:normal;
     margin-top: -5%;
 margin-bottom: 2%;
@@ -351,7 +361,7 @@ margin-bottom: 2%;
 }
 .one4 h1{
     font-size: 3rem;
-    font-family: reckless,serif;
+    font-family: 'Nunito', sans-serif;
     font-style:normal;
     margin-left: 32%;
 
@@ -368,6 +378,8 @@ margin-bottom: 2%;
 }
 
 .two4 h3{
+    font-family: 'Nunito', sans-serif;
+
 font-weight:normal;
 font-size: larger;
 margin-bottom: 3%;
@@ -376,5 +388,6 @@ margin-bottom: 3%;
     font-weight: normal;
     font-size:medium;
     margin-bottom: 3%;
+    font-family: 'Nunito', sans-serif;
 
 }

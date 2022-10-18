@@ -4,15 +4,16 @@ import { getAuth } from "firebase/auth";
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
-const firebaseConfig={
-    apiKey: "AIzaSyCrXaSjWNg9JDyPrc3sR18RY2jRWBA4IJs",
-    authDomain: "block-chain-7bda7.firebaseapp.com",
-    projectId: "block-chain-7bda7",
-    storageBucket: "block-chain-7bda7.appspot.com",
-    messagingSenderId: "412391563988",
-    appId: "1:412391563988:web:3b0f4f5f96d71722049141",
-    measurementId: "G-KLFZX1G6JN"
-};
+    const firebaseConfig = {
+        apiKey: "AIzaSyDCPFn-4c0PxB1GImyjwyzf22-LLMduMG0",
+        authDomain: "block-chain-b1b7b.firebaseapp.com",
+        projectId: "block-chain-b1b7b",
+        storageBucket: "block-chain-b1b7b.appspot.com",
+        messagingSenderId: "749057147458",
+        appId: "1:749057147458:web:19366a8f80ec106887a3db",
+        measurementId: "G-GLL9H25NZX"
+      };
+      
 if (!firebase.apps.length){
     firebase.initializeApp(firebaseConfig)
   }

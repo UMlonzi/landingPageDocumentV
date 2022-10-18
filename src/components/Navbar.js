@@ -10,7 +10,6 @@ import { getAuth, onAuthStateChanged } from "firebase/auth";
 const Navbar = () => {
     const [click, setClick] = useState(false)
     const ButtonStyle = { margin: "0px 10px" };
-
 const [displayNavLinks,setdisplayNavLinks]=useState(false);
 
     const handleClick = () => setClick(!click)
@@ -57,13 +56,10 @@ setdisplayNavLinks(false)
                     <a href='/Plan'>Plan</a>
                 </li>
                 <li className='nav-item'>
-                    <a href='/'>Contact Us</a>
+                    <a href='/ContactUs'>Contact Us</a>
                 </li>
 
-                <li className='nav-item'>
 
-                    <a href='/'>Plan</a>
-                </li>
 
                 { displayNavLinks &&
 (()=>{
@@ -72,9 +68,9 @@ setdisplayNavLinks(false)
         <li>
         <a href='/Dashboard' className='nav-item'>Dashboard</a>
         </li>
-       
+
                 <li className='nav-item'>
-                    <a href='/Profile'>Profile</a>
+                    {/* <a href='/Profile'>Profile</a> */}
 
                 </li>
 

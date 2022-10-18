@@ -1,8 +1,8 @@
 import React from 'react'
 import './footer.css'
-import twitter from './images/logo (1).png'
-import Linkedin from './images/Linkedin-logo-1-550x550-300x300.png'
-import facebook from './images/Facebook-logo.png'
+import twitter from './images/Vector.svg'
+import Linkedin from './images/Vector (1).svg'
+import facebook from './images/akar-icons_facebook-fill.svg'
 
 function Footer () {
   return (
@@ -41,10 +41,13 @@ function Footer () {
 
 
           </ul>
+          {/* <p>
+          © Docuify 2022 — All rights reserved. 
+          </p> */}
         </div>
 
         <div className='Tools'>
-        <h3>Tools</h3>
+        <h3>TOOLS</h3>
 
         <ul>
 
@@ -71,7 +74,7 @@ function Footer () {
 
         <div className='Learn'>
 
-        <h3>Learn</h3>
+        <h3>LEARN</h3>
 
         <ul>
 
@@ -90,7 +93,7 @@ function Footer () {
 
         <div className='About-Us'>
 
-        <h3>About Us</h3>
+        <h3>ABOUT US</h3>
 
         <ul>
 
@@ -116,15 +119,15 @@ function Footer () {
           <ul>
             <li className='icon'>
               <a >
-              <img src={twitter} alt='twitter' height={60} width={60}/>
+              <img src={twitter} alt='twitter' className='twitter' height={25} width={25}/>
 
               </a>
               <a>
-              <img src={Linkedin} alt='Linkedin' height={60} width={60}/>
+              <img src={Linkedin} alt='Linkedin' className='Linkedin' height={25} width={25}/>
 
               </a>
               <a>
-              <img src={facebook} alt='facebook' height={60} width={80}/>
+              <img src={facebook} alt='facebook' className='facebook' height={25} width={25}/>
 
               </a>
             </li>
@@ -145,7 +148,16 @@ function Footer () {
           <a href=''> Referral Program</a>
             </li>
           </ul>
+         
         </div>
+        
+        {/* <div className='all_rights'>
+          <div className='condition'>
+          <p>
+          © Secfi 2022 — All rights reserved. 
+          </p>
+          </div>
+        </div> */}
      </div>
   )
 }
