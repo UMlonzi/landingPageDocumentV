@@ -7,6 +7,8 @@ import DashBoardPage from './pages/dashBoard';
 import AboutPage from './pages/about/AboutPage';
 import PlanPage from './pages/plan/PlanPage';
 import ContactUsPage from './pages/contactUs/ContactUsPage';
+import Authentication from './components/verifier/vriAuth/Authentication';
+import Verdash from './components/verifier/Verdash';
 
 function App() {
   return (
@@ -20,7 +22,6 @@ function App() {
         <Route path='/About' element={<AboutPage/>}/>
         <Route path='/Plan' element={<PlanPage/>}/>
         <Route path='/ContactUs' element={<ContactUsPage/>}/>
-
       </Routes>
       </BrowserRouter>
     </div>
