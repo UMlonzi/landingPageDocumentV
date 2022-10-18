@@ -10,7 +10,7 @@ const Plan = () => {
 // const handleClick = () => setClick(!click)
 const navigate=useNavigate();
 const navigateToContactUs=()=>{
-    navigate('/ContactUs')
+    navigate('/Auth')
 }
   return (
     <div className='Plan'>
