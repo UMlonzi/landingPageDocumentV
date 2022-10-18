@@ -33,11 +33,52 @@ const ContactUs = () => {
     </div>
     <div className='form'>
         <div className='form_heading'>
+          <h1>What can we <br></br> help you with?</h1>
 
         </div>
+
         <div className='form_table'>
+<div className='check'>
+        <form action="https://formspree.io/f/{form_id}" method="post">
+       <div className='properly'>
+       
+        </div>
+        
+        <div>
+        <div className='double-imp'>
+          <div>
+          <label>Full Name</label><br/>
+          <input placeholder='Full Name'/>
+          </div>
+          <div>
+          <label>E-mail</label><br></br>
+          <input placeholder='E-mail'/>
+          </div>
+          
+        </div>
+        <label className='Label'>Phone</label><br></br>
+          <input className='Placeholder' placeholder='Phone'/>
 
         </div>
+        
+        <div className='double-imp'>
+          <div>
+          <label className='job'>Job Title</label><br/>
+          <input className='Input' placeholder='Job Title'/>
+          </div>
+          <div>
+          <label className='job'>Company</label><br></br>
+          <input className='Input'  placeholder='Company'/>
+          </div>
+          
+        </div>
+        <label className='Label'>Message</label><br></br>
+          <input className='type' placeholder='Type your message...'/>
+        <button type="submit">Submit</button>
+      </form>
+        </div>
+        
+    </div>
     </div>
     </div>
 
