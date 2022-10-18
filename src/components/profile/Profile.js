@@ -6,7 +6,7 @@ import Navbar from '../Navbar';
 import {firebase} from '../../firebase';
 
 const Profile=()=> {
-    const [users,setRoom] = useState({name:'' ,email:'',phone:'', surname:'',professional:'',publicKey:''});
+    const [users,setRoom] = useState({name:'' ,email:'',phone:'',image:'', surname:'',professional:'',publicKey:''});
     const db = firebase.firestore();
     const handleChange = (event)=>{
         event.preventDefault();
@@ -21,6 +21,7 @@ const Profile=()=> {
             name:users.name,
             email:users.email,
             phone:users.phone,
+            image:users.image,
             surname:users.surname,
             userProfession:users.professional,
             userPublickey:users.publicKey
@@ -70,10 +71,10 @@ const Profile=()=> {
             value={users.email}
             onChange={handleChange}/>
             </div>
-            {/* <div class="button-wrap">
+            <div class="button-wrap">
                 <label className='button300' for="upload"><FiImage/>Upload</label>
-                <input id="upload" type="file"/>
-             </div> */}
+                <input id="upload" type="file" value={users.image} name='image' onChange={handleChange}/>
+             </div>
             </div>
             <div className='left-site'>
             <div className='spaces'>
