@@ -26,7 +26,7 @@ const Plan = () => {
         <br></br>
         <h1>Pricing that scales to <br></br>fit your needs</h1>
         <p>We are the company that provides a largest <br></br>verifying of documents</p>
-        <button onClick={navigateToAuth}className='price_button'>Get Started</button>
+        <button onClick={navigateToContactUs}className='price_button'>Get Started</button>
     </div>
 </div>
 <div className='heading_plan'>
