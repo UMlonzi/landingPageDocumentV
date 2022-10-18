@@ -73,3 +73,19 @@
     background-color: white;
     color: #463f3c;
   }
+
+  .heading_plan h1{
+    font-family: 'Nunito', sans-serif;
+margin-top: 10%;
+margin-left: 35%;
+  }
+
+  .heading_plan p{
+    font-family: 'Nunito', sans-serif;
+margin-top: 3%;
+text-align: center;
+  }
+  .heading_plan a {
+    color: blue;
+ border-bottom: 1px solid blue;
+  }
