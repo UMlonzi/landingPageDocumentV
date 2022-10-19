@@ -6,6 +6,7 @@ import { Tabs, Tab } from "@blueprintjs/core";
 import { useNavigate, useNavigation } from 'react-router';
 import {AiFillCheckCircle} from 'react-icons/ai'
 import { DIVIDER } from '@blueprintjs/core/lib/esm/common/classes';
+import Footer from './Footer'
 
 // const navigate=useNavigate();
 // const navigateToAuth=()=>{
@@ -19,6 +20,7 @@ const TabsPlan = () => {
         navigate('/Auth')
     }
     return (
+        <div>
         <div className='boxes'>
             <div className='space_boxes1'>
                 <h1>BASIC</h1>
@@ -69,7 +71,8 @@ const TabsPlan = () => {
                 <button className='select_plan'>Get started</button>
             </div>
             </div>
-
+            <Footer/>
+            </div>
     );
             }
 export default TabsPlan
