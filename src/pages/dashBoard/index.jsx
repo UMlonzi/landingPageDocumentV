@@ -10,9 +10,9 @@ import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import LogoutIcon from '@mui/icons-material/Logout';
 import SearchIcon from '@mui/icons-material/Search';
 import welcomeIMG from "../../imagess/welcomeIMG.svg"
+import Web from 'web3';
+
 const DashBoardPage = () => {
-const {innerWidth}=window;
-console.log(innerWidth);
   return (
 
     <div className="pageGrid" style={{width:`100vw`,height:"100vh"}}>
