@@ -36,7 +36,7 @@ const TabsPlan = () => {
                 <div className='features'>
                     <AiFillCheckCircle className='check_circle'/><p>All features</p>
                 </div>
-                <button className='select_plan'>Get started</button>
+                <button onClick={navigateToAuth}  className='select_plan'>Get started</button>
             </div>
             <div className='space_boxes1'>
                 <h1>STANDARD</h1>
@@ -52,7 +52,7 @@ const TabsPlan = () => {
                 <div className='features' >
                     <AiFillCheckCircle className='check_circle'/><p>All features</p>
                 </div>
-                <button className='select_plan'>Get started</button>
+                <button onClick={navigateToAuth}  className='select_plan'>Get started</button>
             </div>
             <div className='space_boxes1'>
                 <h1>PREMIUM</h1>
@@ -68,7 +68,7 @@ const TabsPlan = () => {
                 <div className='features'>
                     <AiFillCheckCircle className='check_circle'/><p>All features</p>
                 </div>
-                <button className='select_plan'>Get started</button>
+                <button onClick={navigateToAuth}  className='select_plan'>Get started</button>
             </div>
             </div>
             <Footer/>
