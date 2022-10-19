@@ -4,6 +4,7 @@ import plan from './images/craft-financial-business-plan-1.jpeg'
 import '@blueprintjs/core/lib/css/blueprint.css';
 import { Tabs, Tab } from "@blueprintjs/core";
 import { useNavigate, useNavigation } from 'react-router';
+import {AiFillCheckCircle} from 'react-icons/ai'
 import { DIVIDER } from '@blueprintjs/core/lib/esm/common/classes';
 
 // const navigate=useNavigate();
@@ -19,25 +20,55 @@ const TabsPlan = () => {
     }
     return (
         <div className='boxes'>
-            {/* <div className='space_boxes'>
-            <Tabs className='Tabs'         >
-                <Tab id="rx" title="Monthly"  className='title' panel={
-                    <div className='basic'>
-                    <p>Sample Content 1</p>
-
-                    </div>
-                    
-                } />
-                <Tab id="ng" title="Annual " className='title'  panel={
-                    <div className='basic_1'>
-                    <p>Sample Contet 2</p>
-
-                    </div>
-                    
-                } />
-            </Tabs>
-            </div> */}
-        </div >
+            <div className='space_boxes1'>
+                <h1>BASIC</h1>
+                <h4>R80.00</h4>
+                <p>per month</p>
+                <hr/>
+                <div className='features'>
+                    <AiFillCheckCircle className='check_circle'/><p>All features</p>
+                </div>
+                <div className='features'>
+                    <AiFillCheckCircle className='check_circle' /><p>All features</p>
+                </div>
+                <div className='features'>
+                    <AiFillCheckCircle className='check_circle'/><p>All features</p>
+                </div>
+                <button>select plan</button>
+            </div>
+            <div className='space_boxes1'>
+                <h1>STANDARD</h1>
+                <h4>R280.00</h4>
+                <p>per month</p>
+                <hr/>
+                <div className='features'>
+                    <AiFillCheckCircle className='check_circle'/><p>All features</p>
+                </div>
+                <div className='features'>
+                    <AiFillCheckCircle className='check_circle'/><p>All features</p>
+                </div>
+                <div className='features' >
+                    <AiFillCheckCircle className='check_circle'/><p>All features</p>
+                </div>
+                <button>select plan</button>
+            </div>
+            <div className='space_boxes1'>
+                <h1>PREMIUM</h1>
+                <h4>R400.00</h4>
+                <p>per month</p>
+                <hr/>
+                <div className='features'>
+                    <AiFillCheckCircle className='check_circle'/><p>All features</p>
+                </div>
+                <div className='features'>
+                    <AiFillCheckCircle className='check_circle'/><p>All features</p>
+                </div>
+                <div className='features'>
+                    <AiFillCheckCircle className='check_circle'/><p>All features</p>
+                </div>
+                <button className='select_plan'>Get started</button>
+            </div>
+            </div>
 
     );
             }
