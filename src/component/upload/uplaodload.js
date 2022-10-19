@@ -11,79 +11,42 @@ import "./uploadload.css";
 import DescriptionIcon from '@mui/icons-material/Description';
 
 // ========================================upload files table====================
+
 function DisplayUplaodTable(){
     console.log("hello");
     const [uplaodFileArr,setUplaodFileArr]=useState([]);
     const handlefileUploads=(e)=>{
-console.log(e);
+        if(!e.target.value)return;
+        setUplaodFileArr(arr=>arr)
+        console.log(e.target.value);
     }
     return(
         <>
-<div style={{position: "relative"}}>
-<button
-  style={{ 
-    cursor:"pointer",position:"absolute",bottom:"21rem",right:"0px",width:"10rem",float:"right",height:"4rem",fontSize:"20px",borderRadius:"1.1rem",
-  backgroundColor:"black", color:"white",}}>
-    <label for="myfile">Select a file</label>
-  <input type="file" id="myfile" name="myfile" accept='.pdf,image/jpg,image/png'
-   style={{color:"rgba(0,0,0,0"}} onClick={handlefileUploads}></input>
-  </button>
+<div style={{position: "relative",minWidth:"60rem",height:"30rem"}}>
+
+        <h2 style={{color:"rgba(121,50,128)",width:"auto",height:"4rem",padding:"0.5rem"}}>Document Name</h2>
 
 <table className='table'>
-    <tr>
-        <th></th>
-        <th>Document Name</th>
-        <th>Created On</th>
-        <th>From</th>
-        <th>Status</th>
-        <th></th>
+    <tr >
+<td style={{display:"flex",width:"30rem"}}>
+    <div className='tableLine'></div>
+<div style={{width:"100px",textAlign:"center"}}><DescriptionIcon sx={{fontSize:"4.0rem"}}/></div>
+    Matric certificate</td>
+</tr>
+        <tr>
+        <td style={{display:"flex"}}>
+            <div className='tableLine'>1</div>
+        <div style={{width:"100px",textAlign:"center"}}><DescriptionIcon sx={{fontSize:"4.0rem"}}/></div>
+            software developer certificate</td>
+        </tr>
 
-    </tr>
-    <tr>
-<td style={{width:"100px",textAlign:"center"}}><DescriptionIcon sx={{fontSize:"4.0rem"}}/></td>
-<td>Matric certificate</td>
-<td>22 Sep 2022</td>
-<td style={{paddingLeft:'3.3%'}}>
-<h6 
-style={{lineHeight:"60px",fontSize:"15px",
-color:"rgb(0,111,245,1)",textAlign:"center"}}>stevensteven22@gmail.com</h6></td>
-<td><h4 className='tableHeader4'> complete</h4></td>
-<td><h2><a href="">View</a></h2></td>
-    </tr>
+        <tr>
+        <td style={{display:"flex"}}>
+        <div className='tableLine'></div>
+        <div style={{width:"100px",textAlign:"center"}}><DescriptionIcon sx={{fontSize:"4.0rem"}}/></div>
+        Export certification </td>
+        </tr>
 
-    <tr>
-<td style={{width:"100px",textAlign:"center"}}><DescriptionIcon sx={{fontSize:"4.0rem"}}/></td>
-<td>Employee of the Month certificate</td>
-<td>7 Sep 2022</td>
-<td style={{paddingLeft:'3.3%'}}>
-<h6 
-style={{lineHeight:"60px",fontSize:"15px",
-color:"rgb(0,111,245,1)",textAlign:"center"}}>stevensteven22@gmail.com</h6></td>
-<td><h4 className='tableHeader4' style={{backgroundColor:"rgba(255, 165, 0, 0.33)",color:'darkorange'}} > pending</h4></td>
-<td><h2><a href="">View</a></h2></td>
-    </tr>
-    <tr>
-<td style={{width:"100px",textAlign:"center"}}><DescriptionIcon sx={{fontSize:"4.0rem"}}/></td>
-<td>Mine Engineers certificate of competency</td>
-<td>1 Aug 2022</td>
-<td style={{paddingLeft:'3.3%'}}>
-<h6 
-style={{lineHeight:"60px",fontSize:"15px",
-color:"rgb(0,111,245,1)",textAlign:"center"}}>stevensteven22@gmail.com</h6></td>
-<td><h4 className='tableHeader4'> complete</h4></td>
-<td><h2><a href="">View</a></h2></td>
-    </tr>
-    <tr>
-<td style={{width:"100px",textAlign:"center"}}><DescriptionIcon sx={{fontSize:"4.0rem"}}/></td>
-<td>Birth certificate</td>
-<td>15 July 2022</td>
-<td style={{paddingLeft:'3.3%'}}>
-<h6 
-style={{lineHeight:"60px",fontSize:"15px",
-color:"rgb(0,111,245,1)",textAlign:"center"}}>stevensteven22@gmail.com</h6></td>
-<td><h4 className='tableHeader4'> complete</h4></td>
-<td><h2><a href="">View</a></h2></td>
-    </tr>
 </table>
 
 </div>
@@ -111,15 +74,14 @@ const UplaodToBlockchainBoxes=()=>{
 
   return(
     <>
-    <h2 style={{float:"right"}}>Sent (3)</h2>
-    <Box sx={{height:"100%",
-    width:"100%",alignItems:"flex-start",lineHeight:"2em",display:"flex",flexDirection:"row",justifyContent:"space-around"}}>
-        <br/>
-        <Boxes color={"#1B411A"} title={"Verified"}/>
-        <br/>
-        <Boxes color={"#5E1919"} title={"Rejected"}/>
-        <br/>
-        <Boxes color={"#785920"} title={"Pending"}/>
+    <Box sx={{display:"flex",flexDirection:"row",
+ justifyContent:"space-around"}}>
+      
+        <Boxes color={"rgba(46,126,40)"} title={"Verified"}/>
+     
+        <Boxes color={"rgba(197, 57, 19)"} title={"Rejected"}/>
+    
+        <Boxes color={"rgba(255,161,54)"} title={"Pending"}/>
     </Box>
         </>
     )

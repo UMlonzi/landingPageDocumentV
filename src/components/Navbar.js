@@ -10,7 +10,10 @@ import { getAuth, onAuthStateChanged } from "firebase/auth";
 const Navbar = () => {
     const [click, setClick] = useState(false)
     const ButtonStyle = { margin: "0px 10px" };
+<<<<<<< HEAD
 
+=======
+>>>>>>> 89c783c8d06ad7dfc4eb5d87eadf27163ca45e08
 const [displayNavLinks,setdisplayNavLinks]=useState(false);
 
     const handleClick = () => setClick(!click)
@@ -43,36 +46,36 @@ setdisplayNavLinks(false)
                 {click ? (<FaTimes size={30} style={{ color: '#ffffff' }} />)
                  : (<FaBars size={30} style={{ color: '#ffffff' }} />)}
             </div>
-            <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <ul className={click ? "nav-menu active" : "nav-menu"} style={{display:'flex',padding:"7px",margin:"auto"}}>
          
      
                 <li className='nav-item'>
                     <a href='/'>Home</a>
                 </li>
                 <li className='nav-item'>
-                    <a href='/'>About</a>
+                    <a href='/About'>About</a>
                 </li>
+
+                <li className='nav-item'>
+                    <a href='/Plan'>Plan</a>
+                </li>
+                <li className='nav-item'>
+                    <a href='/ContactUs'>Contact Us</a>
+                </li>
+
+
 
                 { displayNavLinks &&
 (()=>{
     return(
         <>
-         <li className='nav-item'>
-                    <a href='/'>Dashboard</a>
+        <li>
+        <a href='/Dashboard' className='nav-item'>Dashboard</a>
+        </li>
 
                     </li>
                 <li className='nav-item'>
-
-                    <a href='/'>Plan</a>
-                </li>
-                <li className='nav-item'>
-                    <a href='/'>Contact Us</a>
-
-                    <a href='/Dashboard'>Dashboard</a>
-
-                </li>
-                <li className='nav-item'>
-                    <a href='/Profile'>Profile</a>
+                    {/* <a href='/Profile'>Profile</a> */}
 
                 </li>
 
