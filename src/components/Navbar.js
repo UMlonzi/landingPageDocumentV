@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { useNavigate } from 'react-router';
+import { useNavigate, useNavigation } from 'react-router';
 import {FaBars, FaTimes} from 'react-icons/fa'
 import logo from './images/logo_3-removebg-preview.png'
 import {  Search } from '@rsuite/icons';
@@ -7,12 +7,10 @@ import './navbar.css'
 import { IconButton } from "rsuite";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 
-
 const Navbar = () => {
     const [click, setClick] = useState(false)
     const ButtonStyle = { margin: "0px 10px" };
 
-    const navigate=useNavigate();
 const [displayNavLinks,setdisplayNavLinks]=useState(false);
 
     const handleClick = () => setClick(!click)
@@ -62,6 +60,7 @@ setdisplayNavLinks(false)
          <li className='nav-item'>
                     <a href='/'>Dashboard</a>
 
+                    </li>
                 <li className='nav-item'>
 
                     <a href='/'>Plan</a>
