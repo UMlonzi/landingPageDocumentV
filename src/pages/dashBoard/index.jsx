@@ -9,8 +9,7 @@ import InfoIcon from '@mui/icons-material/Info';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import LogoutIcon from '@mui/icons-material/Logout';
 import SearchIcon from '@mui/icons-material/Search';
-import welcomeIMG from "../../imagess/welcomeIMG.svg"
-import Web from 'web3';
+import welcomeIMG from "../../imagess/welcomeIMG.svg";
 
 const DashBoardPage = () => {
   return (

@@ -5,7 +5,7 @@ import './hero.css'
 import Marquee from "react-fast-marquee";
 import matric from './images/roxann-matric-certificate-1-638.webp';
 import { useNavigate } from 'react-router';
-import { GrCertificate } from 'react-icons/gr';
+import {HiOutlineDocument} from 'react-icons/hi';
 import { BiCertification } from 'react-icons/bi';
 
 
@@ -49,12 +49,12 @@ const Hero = () => {
             Documents we work with
            </p>
           <Marquee className='Marquee'>
-          <GrCertificate/><h4>Matric Certificate</h4>
-             <BiCertification/><h4>Higher Certificate</h4>
-             <GrCertificate/><h4> Diploma Certificate </h4>
-             <BiCertification/><h4> Degree Certificate </h4>
-             <GrCertificate/><h4>Honours Certificate</h4>
-             <BiCertification/><h4>Doctorate Certificate</h4>
+          <HiOutlineDocument className='grcert'/><h4>Matric Certificate</h4>
+             <BiCertification className='grcert'/><h4>Higher Certificate</h4>
+             <HiOutlineDocument className='grcert'/><h4> Diploma Certificate </h4>
+             <BiCertification className='grcert'/><h4> Degree Certificate </h4>
+             <HiOutlineDocument className='grcert'/><h4>Honours Certificate</h4>
+             <BiCertification className='grcert'/><h4>Doctorate Certificate</h4>
             </Marquee>
           </div>
         
