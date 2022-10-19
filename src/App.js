@@ -22,6 +22,8 @@ function App() {
         <Route path='/About' element={<AboutPage/>}/>
         <Route path='/Plan' element={<PlanPage/>}/>
         <Route path='/ContactUs' element={<ContactUsPage/>}/>
+        <Route path='/authentication' element={<Authentication/>}/>
+        <Route path='/verifierdashboard' element={<Verdash/>}/>
       </Routes>
       </BrowserRouter>
     </div>
