@@ -22,64 +22,21 @@ function DisplayUplaodTable(){
     }
     return(
         <>
-<div style={{position: "relative"}}>
+<div style={{position: "relative",minWidth:"60rem",height:"30rem"}}>
 
+        <h2 style={{color:"rgba(121,50,128)",width:"auto",height:"4rem",padding:"0.5rem"}}>Document Name</h2>
 
 <table className='table'>
-    <tr>
-        <th></th>
-        <th>Document Name</th>
-        <th>Created On</th>
-        <th>From</th>
-        <th>Status</th>
-        <th></th>
-
-    </tr>
-    <tr>
-<td style={{width:"100px",textAlign:"center"}}><DescriptionIcon sx={{fontSize:"4.0rem"}}/></td>
-<td>Matric certificate</td>
-<td>22 Sep 2022</td>
-<td style={{paddingLeft:'3.3%'}}>
-<h6 
-style={{lineHeight:"60px",fontSize:"15px",
-color:"rgb(0,111,245,1)",textAlign:"center"}}>stevensteven22@gmail.com</h6></td>
-<td><h4 className='tableHeader4'> complete</h4></td>
-<td><h2><a href="">View</a></h2></td>
-    </tr>
-
-    <tr>
-<td style={{width:"100px",textAlign:"center"}}><DescriptionIcon sx={{fontSize:"4.0rem"}}/></td>
-<td>Employee of the Month certificate</td>
-<td>7 Sep 2022</td>
-<td style={{paddingLeft:'3.3%'}}>
-<h6 
-style={{lineHeight:"60px",fontSize:"15px",
-color:"rgb(0,111,245,1)",textAlign:"center"}}>stevensteven22@gmail.com</h6></td>
-<td><h4 className='tableHeader4' style={{backgroundColor:"rgba(255, 165, 0, 0.33)",color:'darkorange'}} > pending</h4></td>
-<td><h2><a href="">View</a></h2></td>
-    </tr>
-    <tr>
-<td style={{width:"100px",textAlign:"center"}}><DescriptionIcon sx={{fontSize:"4.0rem"}}/></td>
-<td>Mine Engineers certificate of competency</td>
-<td>1 Aug 2022</td>
-<td style={{paddingLeft:'3.3%'}}>
-<h6 
-style={{lineHeight:"60px",fontSize:"15px",
-color:"rgb(0,111,245,1)",textAlign:"center"}}>stevensteven22@gmail.com</h6></td>
-<td><h4 className='tableHeader4'> complete</h4></td>
-<td><h2><a href="">View</a></h2></td>
-    </tr>
-    <tr>
-<td style={{width:"100px",textAlign:"center"}}><DescriptionIcon sx={{fontSize:"4.0rem"}}/></td>
-<td>Birth certificate</td>
-<td>15 July 2022</td>
-<td style={{paddingLeft:'3.3%'}}>
-<h6 
-style={{lineHeight:"60px",fontSize:"15px",
-color:"rgb(0,111,245,1)",textAlign:"center"}}>stevensteven22@gmail.com</h6></td>
-<td><h4 className='tableHeader4'> complete</h4></td>
-<td><h2><a href="">View</a></h2></td>
-    </tr>
+    <tr >
+<td style={{display:"flex",width:"30rem"}}>
+<div style={{width:"100px",textAlign:"center"}}><DescriptionIcon sx={{fontSize:"4.0rem"}}/></div>
+    Matric certificate</td>
+</tr>
+<tr >
+<td style={{display:"flex"}}>
+<div style={{width:"100px",textAlign:"center"}}><DescriptionIcon sx={{fontSize:"4.0rem"}}/></div>
+    software developer certificate</td>
+</tr>
 </table>
 
 </div>

@@ -21,11 +21,7 @@ body{
    
 }
 .table{
-    padding:2rem;
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-   width:99%;
-    box-shadow: 3px 2px 5px lightgray;
+    border-spacing: 20px;
 }
 .item1{
 position: relative;;
