@@ -9,6 +9,10 @@ import TabsPlan from './TabsPlan';
 const Plan = () => {
 
 
+<<<<<<< HEAD
+  // const handleClick = () => setClick(!click)
+=======
+>>>>>>> 4823462e9e28938d64c347672c9e6fe78154dc66
 
 // const handleClick = () => setClick(!click)
 const navigate=useNavigate();
