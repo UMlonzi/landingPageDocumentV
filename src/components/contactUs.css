@@ -15,7 +15,7 @@
 .form_heading h1{
     font-family: 'Nunito', sans-serif;
 color: white;
-font-size: xx-large;
+font-size: xxx-large;
 margin-left: 14%;
 margin-top: 33%;
 }
@@ -37,6 +37,7 @@ margin-top: 33%;
 .check .Label{
     margin-left: 9%;
     color: white;
+    
     font-family: 'Nunito', sans-serif;
 
 }
@@ -50,6 +51,20 @@ margin-top: 33%;
     text-indent: 10px;
 
 }
+.check .send{
+    padding: 17px 20px;
+    font-size: 1rem;
+    color: #463f3c;
+    font-weight: 700;
+    background-color: #F7F6F2;
+    border: 1px solid ;
+    border-radius: 24px;
+    cursor: pointer;
+    width: 32%;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 9%;
+    margin-left: 10%;
+}
 .check .Placeholder{
     background-color: white;
     margin-left: 9%;
@@ -59,7 +74,6 @@ margin-top: 33%;
     border: 1px solid grey;
     height: 50px;
     width: 80%;
-    margin-top: 2%;
     font-family: 'Nunito', sans-serif;
 
 }

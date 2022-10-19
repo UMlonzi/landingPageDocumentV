@@ -9,11 +9,6 @@ import TabsPlan from './TabsPlan';
 const Plan = () => {
 
 
-  // const handleClick = () => setClick(!click)
-  const navigate=useNavigate();
-  const navigateToContactUs=()=>{
-      navigate('/Auth')
-  }
 
 // const handleClick = () => setClick(!click)
 const navigate=useNavigate();
