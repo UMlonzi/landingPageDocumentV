@@ -12,34 +12,18 @@ body{
 .pageGrid{
     display:grid;
     flex-shrink: 1;
-<<<<<<< HEAD
-    grid-template-columns:1fr 4fr 1fr;
-gap:20px;
-    grid-template-areas: 
-"nav  header header "
-"nav main ."
-"nav main .";
-=======
     grid-template-columns:350px 3fr 1fr;
     grid-template-rows: 30rem;
     grid-template-areas: 
 "nav  header TimeTable "
 "nav main TimeTable"
 "nav main TimeTable";
->>>>>>> 89c783c8d06ad7dfc4eb5d87eadf27163ca45e08
    
 }
 .table{
     border-spacing: 20px;
 }
 .item1{
-<<<<<<< HEAD
-    grid-area:nav;
-    background-color: green;
- border-radius: 0px 10rem 0rem 0rem;
-  padding: 10rem 0 0 0rem;
-
-=======
 position: relative;;
     grid-area:nav;
     padding: 15rem 0 0 0rem;
@@ -57,35 +41,21 @@ position: relative;;
 }
 .navLI li:hover{
    color:rgba(121,50,128);
->>>>>>> 89c783c8d06ad7dfc4eb5d87eadf27163ca45e08
 }
 .headingDashboard{
     width:150px;
 }
 .item2{
   grid-area: header;
-<<<<<<< HEAD
-  padding: 10rem 0 0 0rem;
-background-color: orange;
-align-self: end;
-border-bottom: 0.5rem solid gray;
-
-
-=======
   padding: 2rem 0 0 0rem;
   display:flex;
   flex-direction: column;
   justify-content: space-between;
->>>>>>> 89c783c8d06ad7dfc4eb5d87eadf27163ca45e08
 }
 
 
 .item3{
     grid-area:main;
-<<<<<<< HEAD
- background-color: #F7F5F2;
-
-=======
  border-radius:0 0 2rem 0 ;
  display: flex;
  align-items: center;
@@ -94,7 +64,6 @@ border-bottom: 0.5rem solid gray;
 .item4{
     grid-area:TimeTable;
     background: rgba(252,245,235);
->>>>>>> 89c783c8d06ad7dfc4eb5d87eadf27163ca45e08
 }
 
 .item5{
