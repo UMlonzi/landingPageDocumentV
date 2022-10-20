@@ -30,14 +30,14 @@ position: relative;;
     text-align: center;
     font-weight:500;
 }
+
 .navLI li{
     display: flex;
-    justify-content: space-evenly;
-    height:4.5rem;
+    height:5.5rem;
    color:black;
-   padding:1.5rem 3rem 2rem 0rem;
+   padding:1.5rem 3rem 2rem 4rem;
    font-size: 1.5rem;
-   width: 100%;
+   width: 80%;
 }
 .navLI li:hover{
    color:rgba(121,50,128);
@@ -51,13 +51,11 @@ position: relative;;
   display:flex;
   flex-direction: column;
   justify-content: space-between;
-
 }
 
 
 .item3{
     grid-area:main;
- background-color: #F7F5F2;
  border-radius:0 0 2rem 0 ;
  display: flex;
  align-items: center;
@@ -66,6 +64,16 @@ position: relative;;
 .item4{
     grid-area:TimeTable;
     background: rgba(252,245,235);
+    padding:3rem 0;
+
+}
+.calander{
+    display: flex;
+    height: 80rem;
+    flex-direction: column;
+    overflow: hidden;
+
+    margin-top: 2rem;
 }
 
 .item5{
@@ -89,12 +97,15 @@ position: relative;;
     box-shadow: 2px 2px 5px gray;
 
 }
-.item16{
-    grid-area: footer;
-    
-}
 
- 
+.tableLine{
+    height:5rem;
+    width:1rem;
+    z-index: 1;
+    background: rgb(122,56,112)
+  }
+
+
 @media only screen and (max-width: 1000px){
     .table{
       background-color: blue;
