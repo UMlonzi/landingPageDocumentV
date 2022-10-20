@@ -72,7 +72,7 @@ position: relative;;
     height: 80rem;
     flex-direction: column;
     overflow: hidden;
-
+justify-content: space-evenly;
     margin-top: 2rem;
 }
 
