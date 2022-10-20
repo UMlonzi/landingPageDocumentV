@@ -64,6 +64,16 @@ position: relative;;
 .item4{
     grid-area:TimeTable;
     background: rgba(252,245,235);
+    padding:3rem 0;
+
+}
+.calander{
+    display: flex;
+    height: 80rem;
+    flex-direction: column;
+    overflow: hidden;
+
+    margin-top: 2rem;
 }
 
 .item5{
@@ -87,10 +97,7 @@ position: relative;;
     box-shadow: 2px 2px 5px gray;
 
 }
-.item16{
-    grid-area: footer;
-    
-}
+
 .tableLine{
     height:5rem;
     width:1rem;
