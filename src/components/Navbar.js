@@ -42,7 +42,7 @@ setdisplayNavLinks(false)
                 {click ? (<FaTimes size={30} style={{ color: '#ffffff' }} />)
                  : (<FaBars size={30} style={{ color: '#ffffff' }} />)}
             </div>
-            <ul className={click ? "nav-menu active" : "nav-menu"} style={{display:'flex',width:'30rem',justifyContent:'space-evenly',padding:"7px",margin:"auto"}}>
+            <ul className={click ? "nav-menu active" : "nav-menu"} style={{display:'flex',width:'30rem',fontSize:'larger',justifyContent:'space-evenly',padding:"1px",margin:"auto",}}>
          
      
                 <li className='nav-item'>
