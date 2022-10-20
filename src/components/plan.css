@@ -17,6 +17,7 @@
     width: 80%;
     margin-left: 13%;
     margin-top: 10%;
+    /* background-color: red; */
 }
 
 .Plan .target{
@@ -72,8 +73,10 @@
     border: 1px solid #d1cfc8;
     background-color: white;
     color: #463f3c;
+    
   }
 
+  
   .heading_plan h1{
     font-family: 'Nunito', sans-serif;
 margin-top: 10%;
