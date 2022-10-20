@@ -13,6 +13,7 @@ import Verdash from './components/verifier/Verdash';
 function App() {
   return (
     <div>
+
       <BrowserRouter>
       <Routes>
         <Route path='/' exact element={<LandingPage/>}/>
@@ -26,6 +27,7 @@ function App() {
         <Route path='/verifierdashboard' element={<Verdash/>}/>
       </Routes>
       </BrowserRouter>
+      
     </div>
   );
 }

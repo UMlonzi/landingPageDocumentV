@@ -34,14 +34,14 @@ function Slide() {
            </div>
 
            <div className='marq'>
-           <p>"What I found most <br></br> comforting was that this <br></br>
+            <p>"What I found most <br></br> comforting was that this <br></br>
            would allow all our employees, <br></br>not just the executives or <br></br>
            senior ones, an opportunity to <br></br>have the option to make a <br></br> 
            major life decision." </p>
             <br></br>
-           <br></br>
-           <br></br>
-           <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
 
                 <h6>Dan Sinner</h6>
            <h6>Chief Customer Officer at Happy Money</h6>
@@ -51,12 +51,12 @@ function Slide() {
           <p> "I realized I’ve been sorely <br></br>needing your advisory services. 
             So excited to work <br></br>with you."</p>
             <br></br>
-           <br></br>
-           <br></br>
-           <br></br>        
-           <br></br>
-           <br></br>     
-           <br></br>
+            <br></br>
+            <br></br>
+            <br></br>        
+            <br></br>
+            <br></br>     
+            <br></br>
    
               <h6>Senior Engineer</h6>
            <h6>Gusto</h6>

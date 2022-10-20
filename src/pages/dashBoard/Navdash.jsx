@@ -19,7 +19,9 @@ const Navdash = () => {
 
   return (
     <div className='header'>
-        <nav className='navbar'>
+
+        <nav className='navbar'> 
+
             <a href='/' className='logo'>
                 <img src={logo} alt='logo'  />
             </a>
@@ -45,14 +47,14 @@ const Navdash = () => {
                 </li>
                
                 <li>
-            {/* <a href="#">Programming languages</a>
-            <ul class="dropdown">
-                <li><a href="#">C++</a></li>
-                <li><a href="#">JAVA</a></li>
-                <li><a href="#">PHP</a></li>
-            </ul> */}
+                {/* <a href="#">Programming languages</a>
+                 <ul class="dropdown">
+                 <li><a href="#">C++</a></li>
+                 <li><a href="#">JAVA</a></li>
+                 <li><a href="#">PHP</a></li>
+                 </ul> */}
 
-        </li>
+                 </li>
             </ul>
             <button onClick={navigateToAuth} className='button2'>Log out</button>
             {/* <button onClick={navigateToAuth} className='button1'>Get started</button> */}
