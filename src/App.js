@@ -9,6 +9,8 @@ import PlanPage from './pages/plan/PlanPage';
 import ContactUsPage from './pages/contactUs/ContactUsPage';
 import Authentication from './components/verifier/vriAuth/Authentication';
 import Verdash from './components/verifier/Verdash';
+import Practice from './pages/practice/Practice'
+
 import {getAuth, onAuthStateChanged} from "firebase/auth";
 import { useEffect } from 'react';
 
@@ -31,6 +33,8 @@ console.log(user);
         <Route path='/ContactUs' element={<ContactUsPage/>}/>
         <Route path='/authentication' element={<Authentication/>}/>
         <Route path='/verifierdashboard' element={<Verdash/>}/>
+        <Route path='/Practice' element={<Practice/>}/>
+
       </Routes>
       </BrowserRouter>
     </div>
