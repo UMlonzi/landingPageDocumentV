@@ -29,14 +29,24 @@ function DisplayUplaodTable(){
 <table className='table'>
     <tr >
 <td style={{display:"flex",width:"30rem"}}>
+    <div className='tableLine'></div>
 <div style={{width:"100px",textAlign:"center"}}><DescriptionIcon sx={{fontSize:"4.0rem"}}/></div>
     Matric certificate</td>
 </tr>
-<tr >
-<td style={{display:"flex"}}>
-<div style={{width:"100px",textAlign:"center"}}><DescriptionIcon sx={{fontSize:"4.0rem"}}/></div>
-    software developer certificate</td>
-</tr>
+        <tr>
+        <td style={{display:"flex"}}>
+            <div className='tableLine'>1</div>
+        <div style={{width:"100px",textAlign:"center"}}><DescriptionIcon sx={{fontSize:"4.0rem"}}/></div>
+            software developer certificate</td>
+        </tr>
+
+        <tr>
+        <td style={{display:"flex"}}>
+        <div className='tableLine'></div>
+        <div style={{width:"100px",textAlign:"center"}}><DescriptionIcon sx={{fontSize:"4.0rem"}}/></div>
+        Export certification </td>
+        </tr>
+
 </table>
 
 </div>
@@ -64,13 +74,13 @@ const UplaodToBlockchainBoxes=()=>{
 
   return(
     <>
-    <Box sx={{height:"100%",
-    width:"100%",alignItems:"flex-start",lineHeight:"2em",display:"flex",flexDirection:"row",justifyContent:"space-around"}}>
-        <br/>
+    <Box sx={{display:"flex",flexDirection:"row",
+ justifyContent:"space-around"}}>
+      
         <Boxes color={"rgba(46,126,40)"} title={"Verified"}/>
-        <br/>
+     
         <Boxes color={"rgba(197, 57, 19)"} title={"Rejected"}/>
-        <br/>
+    
         <Boxes color={"rgba(255,161,54)"} title={"Pending"}/>
     </Box>
         </>
