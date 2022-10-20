@@ -23,16 +23,7 @@ import { getAuth, onAuthStateChanged, signOut } from 'firebase/auth';
 const DashBoardPage = () => {
 const [loggInState,setloggInState]=useState(false);
   const auth=getAuth();
-//  useEffect(() => {
-//   onAuthStateChanged(auth,(user)=>{
-//     if(user){
-//       setloggInState(true);
-// return;
-//     }else if(loggInState==false)return  navigate("/",{
-      
-//     });
-//   });
-// },[loggInState])
+
 
 const handleCalander=(minusDays=0)=>{
   const selectMonth = ["Jan","Feb","Mar","Apr","May","June","July","Aug","Sep","Oct","Nov","Dec"];
