@@ -80,7 +80,7 @@ function Slide() {
            <div className='marq'>
           <p> "Docuify felt like the safest <br></br>option. There is upside <br></br>
            and almost no downside, and I <br></br>might as well play it safe."</p>
-            <br></br>
+           <br></br>
            <br></br>
            <br></br>
            <br></br>
@@ -96,7 +96,7 @@ function Slide() {
            <p>"I feel like a small fish in a big <br></br>pond with wealth advisors.<br></br> 
            Secfi is exactly what I've been <br></br> looking for. You get me. You <br></br>
            know equity. And you make <br></br>my life easy."</p>
-            <br></br>
+           <br></br>
            <br></br>
            <br></br>
            <br></br>
@@ -105,7 +105,7 @@ function Slide() {
           <h6>Emma</h6>
            <h6>Docuify Wealth client</h6>       
            </div>
-            </Marquee>
+           </Marquee>
 
 
     </div>

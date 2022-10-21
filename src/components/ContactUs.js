@@ -8,10 +8,10 @@ import TabsPlan from './TabsPlan';
 
 const ContactUs = () => {
 
-  // const handleClick = () => setClick(!click)
-//   const navigate=useNavigate();
-//   const navigateToContactUs=()=>{
-//       navigate('/Auth')
+   // const handleClick = () => setClick(!click)
+   //   const navigate=useNavigate();
+   //   const navigateToContactUs=()=>{
+   //       navigate('/Auth')
   
   return (
    <div>
@@ -40,7 +40,7 @@ const ContactUs = () => {
         <div className='form_table'>
 <div className='check'>
         <form action="https://formspree.io/f/{form_id}" method="post">
-       <div className='properly'>
+        <div className='properly'>
        
         </div>
         
