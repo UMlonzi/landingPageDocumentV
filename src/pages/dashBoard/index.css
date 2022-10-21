@@ -47,7 +47,7 @@ position: relative;;
 }
 .item2{
   grid-area: header;
-  padding: 2rem 0 0 0rem;
+  padding: 2rem ;
   display:flex;
   flex-direction: column;
   justify-content: space-between;

@@ -62,7 +62,8 @@ class DisplayUplaodTable extends React.Component{
       }
 
     captureFile = (event) => {
-  console.log(event);
+  console.log(event.target.dataset);
+
         // const reader = new window.FileReader()
     
         // reader.readAsArrayBuffer(file)
@@ -118,7 +119,7 @@ class DisplayUplaodTable extends React.Component{
              </p>
             <button style={{height:"3rem",cursor:"pointer",borderRadius:"0.5rem",
             fontSize:"1rem",fontWeight:"500",width:"5rem",color:"white",backgroundColor:"rgb(122,56,112)"}}
-       onClick={()=>this.captureFile(this.props.selectFile)}    >Deploy</button>
+       onClick={this.captureFile}  data-identifyBtn={this.props.selectFile.identifyBtn} >Deploy</button>
             </td>
               </tr>   
             </>

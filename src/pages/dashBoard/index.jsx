@@ -18,32 +18,13 @@ import CalenderBox from "../../component/calander/calenderBox";
 import Web from 'web3';
 import { Link, useNavigate } from 'react-router-dom';
 import { getAuth, onAuthStateChanged, signOut } from 'firebase/auth';
+import { nanoid } from 'nanoid';
 
 
-class Test extends React.Component{
-  constructor(props){
-    super(props);
-    this.state={
-      name:"monnus",
-     }
-     console.log("selectFile",this.props.selectFile);
-
-     console.log("selectile",this.props.selectFile);
-     
-   }
-   
-   render() {
-   return (
-     <>
-       
-     </>
-   )
- }
-}
 const DashBoardPage = () => {
   const [loggInState,setloggInState]=useState(false);
   const auth=getAuth();
-  const [selectFile,setSelectFile]=useState([])
+  const [selectFile,setSelectFile]=useState([]);
 
   
   const handleCalander=(minusDays=0)=>{
@@ -63,12 +44,13 @@ handleCalander();
 const navigate=useNavigate();
 const handleLogOut=()=>{
   signOut(auth);
-  setloggInState(false)
+  setloggInState(false);
   navigate("/")
 }
 const hanleSelectFile=(e)=>{
   console.log(e.target.files[0]);
   const file=Object.assign(e.target.files[0]);
+  file.identifyBtn=nanoid();
   setSelectFile(item=>[...item,file]);
 };
 
@@ -78,33 +60,33 @@ return (
   <div className="pageGrid" 
   style={{width:`100vw`,height:"100vh"}}>
       <div className='item1'>
-      <Test selectFile={selectFile}/>
+    
       <nav>
-        <h5>Wlecome Back</h5>
-        <br/>
+ 
+
         <ul>
 
+<div style={{display:"flex",justifyContent:"center",flexDirection:"column",alignItems:"center"}}>
+
       <img src={IconUser} alt="default user icon Image"
-       style={{width:"8rem",height:"8rem",alignSelf:"end",margin:"0px 0 5rem 0px",backgroundColor:"white",borderRadius:"100%"}}/>
+       style={{width:"8rem",height:"8rem",backgroundColor:"white",borderRadius:"100%"}}/>
+<div>
+  <h2>Sarah Cannar</h2>
+<h4>Sarah@gmail.com</h4>
+</div>
+       </div>
 
 <br/>
   <ul  className='navLI'
   style={{display:"flex", flexDirection:"column",width:'100%',
   height:"35rem"}}>
-  <Link to="/"><li><HomeIcon fontSize="large"/>Home</li></Link>
-  <Link to="/About"> <li><InfoIcon fontSize="large"/> About</li></Link>
-  <Link to="/Dashboard"> <li><GridViewIcon fontSize="large"/> Dashboard</li></Link>
-  <Link to="/profile"> <li> <AccountBoxIcon fontSize='large'/>Profile</li></Link>
-  <Link to="/Plan"> <li> <AirplanemodeActiveIcon fontSize='large'/>Plan</li></Link>
-  <Link to="/ContactUs"> <li> <ContactPhoneIcon fontSize='large'/>Contact Us</li></Link>
+    <Link to="/Dashboard"> <li><GridViewIcon fontSize="large"/> Dashboard</li></Link>
+  <Link to="/"><li><HomeIcon fontSize="large"/>Analytics</li></Link>
+  <Link to="/About"> <li><InfoIcon fontSize="large"/> Task List</li></Link>
+  <Link to="/profile"> <li> <AccountBoxIcon fontSize='large'/>Tracking</li></Link>
+  <Link to="/Plan"> <li> <AirplanemodeActiveIcon fontSize='large'/>Setting</li></Link>
   </ul>
-        <br/>
-        <hr/>
-        <br/>
-<li style={{width:"10rem", 
-height:"5rem",display:"flex", justifyContent:"space-evenly", padding:"2rem 0"}} 
-onClick={handleLogOut}>
-  <LogoutIcon fontSize='large'/>Log out</li>
+
     </ul>
 
    </nav>
@@ -120,8 +102,8 @@ onClick={handleLogOut}>
       <div style={{display:"flex",width:"100%",alignItems:"flex-end"}}>
 
    
-      <div style={{flexGrow:"2",color:"rgba(121,50,128)"}}>
-      <h3>Hello Monnus</h3>
+      <div style={{flexGrow:"2",color:"rgba(121,50,128)",fontSize:"1.5rem"}}>
+      <h3>Hello,Sara</h3>
       <h6>Today is Monday, 20 October 2022</h6>
       </div>
       <div style={{display:"flex",flexGrow:"3",padding:"0 0",textAlign:"center"}}>
@@ -132,9 +114,9 @@ onClick={handleLogOut}>
  
         <button 
         style={{width:"15rem",cursor:"pointer",height:"4rem",
-        fontSize:"2rem",backgroundColor:"black",borderRadius:"1rem",
+        fontSize:"1.3rem",backgroundColor:"black",borderRadius:"0.5rem",
         marginRight:"1rem", color:"white"}} type="button" onChange={(e)=>hanleSelectFile(e)}> 
-        <label htmlFor='filebtn'>select file</label>
+        <label htmlFor='filebtn'>Add New Project</label>
         
         <input id="filebtn" type="file"  style={{color:"rgba(0,0,0,0)"}}/>
           

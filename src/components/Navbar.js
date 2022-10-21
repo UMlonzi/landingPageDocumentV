@@ -63,16 +63,16 @@ setdisplayNavLinks(false)
                     </li>
                 <li className='nav-item'>
 
-                    <a href='/'>Plan</a>
+                    <a href='/'>Analytics</a>
                 </li>
                 <li className='nav-item'>
-                    <a href='/'>Contact Us</a>
+                    <a href='/'>Task List</a>
 
-                    <a href='/Dashboard'>Dashboard</a>
+                    <a href='/Dashboard'>Tracking</a>
 
                 </li>
                 <li className='nav-item'>
-                    <a href='/Profile'>Profile</a>
+                    <a href='/Profile'>Setting</a>
 
                 </li>
 
@@ -90,8 +90,7 @@ setdisplayNavLinks(false)
             </ul> */}
         </li>
             </ul>
-            <button onClick={navigateToAuth} className='button2'>Log in</button>
-            <button onClick={navigateToAuth} className='button1'>Get started</button>
+     
             <div>
             <IconButton icon={<Search />} className='ButtonStyle' />
             </div>
