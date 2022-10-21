@@ -28,12 +28,12 @@ console.log(user);
         <Route path='/Auth' element={<Auth/>}/>
         <Route path='/profile' element={<Profile/>} />
         <Route path='/Dashboard' element={<DashBoardPage/>}/>
-        <Route path='/About' element={<AboutPage/>}/>
-        <Route path='/Plan' element={<PlanPage/>}/>
+        <Route path='/About' element={<AboutPage/>}/> 
+      <Route path='/Plan' element={<PlanPage/>}/>
         <Route path='/ContactUs' element={<ContactUsPage/>}/>
         <Route path='/authentication' element={<Authentication/>}/>
-        <Route path='/verifierdashboard' element={<Verdash/>}/>
-        <Route path='/Practice' element={<Practice/>}/>
+       <Route path='/verifierdashboard' element={<Verdash/>}/> 
+         <Route path='/Practice' element={<Practice/>}/>
 
       </Routes>
       </BrowserRouter>

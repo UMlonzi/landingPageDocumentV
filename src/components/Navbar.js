@@ -10,6 +10,7 @@ import { getAuth, onAuthStateChanged } from "firebase/auth";
 const Navbar = () => {
     const [click, setClick] = useState(false)
     const ButtonStyle = { margin: "0px 10px" };
+
 const [displayNavLinks,setdisplayNavLinks]=useState(false);
 
     const handleClick = () => setClick(!click)
@@ -49,28 +50,29 @@ setdisplayNavLinks(false)
                     <a href='/'>Home</a>
                 </li>
                 <li className='nav-item'>
-                    <a href='/About'>About</a>
+                    <a href='/'>About</a>
                 </li>
-
-                <li className='nav-item'>
-                    <a href='/Plan'>Plan</a>
-                </li>
-                <li className='nav-item'>
-                    <a href='/ContactUs'>Contact Us</a>
-                </li>
-
-
 
                 { displayNavLinks &&
 (()=>{
     return(
         <>
-        <li>
-        <a href='/Dashboard' className='nav-item'>Dashboard</a>
-        </li>
+         <li className='nav-item'>
+                    <a href='/'>Dashboard</a>
 
+                    </li>
                 <li className='nav-item'>
-                    {/* <a href='/Profile'>Profile</a> */}
+
+                    <a href='/'>Analytics</a>
+                </li>
+                <li className='nav-item'>
+                    <a href='/'>Task List</a>
+
+                    <a href='/Dashboard'>Tracking</a>
+
+                </li>
+                <li className='nav-item'>
+                    <a href='/Profile'>Setting</a>
 
                 </li>
 
@@ -88,8 +90,7 @@ setdisplayNavLinks(false)
             </ul> */}
         </li>
             </ul>
-            <button onClick={navigateToAuth} className='button2'>Log in</button>
-            <button onClick={navigateToAuth} className='button1'>Get started</button>
+     
             <div>
             <IconButton icon={<Search />} className='ButtonStyle' />
             </div>
