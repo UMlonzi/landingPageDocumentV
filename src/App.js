@@ -22,6 +22,7 @@ const user=auth.currentUser;
 console.log(user);
   return (
     <div>
+
       <BrowserRouter>
       <Routes>
         <Route path='/' exact element={<LandingPage/>}/>
@@ -37,6 +38,7 @@ console.log(user);
 
       </Routes>
       </BrowserRouter>
+      
     </div>
   );
 }

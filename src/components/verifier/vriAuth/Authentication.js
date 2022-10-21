@@ -16,10 +16,12 @@ export default function Authentication() {
   const [isRegistering, setIsRegistering] = useState(false);
   const [forgotPass,setPassForgot] = useState(false);
   const [registerInformation, setRegisterInformation] = useState({
-    email: "",
+    email: "",  
+
     // confirmEmail: "",
     password: "",
     // confirmPassword: ""
+
   });
 
 //   useEffect(() => {
@@ -30,23 +32,32 @@ export default function Authentication() {
 //     });
 //   }, []);
 
-  const handleEmailChange = (e) => {
-    setEmail(e.target.value);
+  const handleEmailChange = (e) => { 
+
+             setEmail(e.target.value);
+
   };
 
-  const handlePasswordChange = (e) => {
+  const handlePasswordChange = (e) => { 
+
     setPassword(e.target.value);
+
   };
 
   const handleSignIn = () => {
+
     signInWithEmailAndPassword(auth, email, password)
+
       .then(() => {
+
         navigate("/Dashboard");
+
       })
       .catch((err) => alert(err.message));
   };
 
   const handleRegister = () => {
+
     // if (registerInformation.email !== registerInformation.confirmEmail) {
     //   alert("Please confirm that email are the same");
     //   return;
@@ -57,10 +68,13 @@ export default function Authentication() {
     //   alert("Please confirm that password are the same");
     //   return;
     // }
+
     createUserWithEmailAndPassword(
+
       auth,
       registerInformation.email,
       registerInformation.password
+
     )
       .then(() => {
         navigate("/Dashboard");
@@ -88,6 +102,7 @@ export default function Authentication() {
               }
             />
             </div>
+
             {/* <div>
             <input
               type="email"
@@ -101,6 +116,7 @@ export default function Authentication() {
               }
             />
             </div> */}
+
             <div className='login-input'>
             <input
               type="password"
@@ -114,6 +130,7 @@ export default function Authentication() {
               }
             />
             </div>
+
             {/* <div>
             <input
               type="password"
@@ -127,6 +144,7 @@ export default function Authentication() {
               }
             />
             </div> */}
+            
             <div>
             <div>
             <button className="sign-in-register-button" onClick={handleRegister}>Sign up</button>

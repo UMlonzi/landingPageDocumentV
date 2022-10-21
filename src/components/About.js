@@ -7,6 +7,7 @@ import { useNavigate, useNavigation } from 'react-router';
 const About = () => {
 
 // const handleClick = () => setClick(!click)
+
 const navigate=useNavigate();
 const navigateToContactUs=()=>{
     navigate('/ContactUs')
