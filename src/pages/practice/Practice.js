@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import Navbar from '../../components/Navbar';
 import Main from  '../../components/Main';
 import { Buffer } from 'buffer';
-
 import Web3 from 'web3';
 // import './App.css';
 
@@ -56,9 +55,9 @@ class Practice extends Component {
     if (1) {
       // Assign contract
       const dstorage = new web3.eth.Contract(
-        DStorage.abi, '0x8727757664fbc95a3021fa63a32d1a1f2a027f66', //Wallet address
+        DStorage.abi, '0x4281ecf07378ee595c564a59048801330f3084ee', //Wallet address
         {
-          from: '0xedf5ea4bbc37c5806667034a296b490234e011ed', //Contract address
+          from: '0xc159d5550f19b54c180d9ca4c52f7db24083220e', //Contract address
         });
       this.setState({ dstorage })
       // Get files amount

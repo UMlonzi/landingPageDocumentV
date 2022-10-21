@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { convertBytes } from './helpers';
-import moment from 'moment'
+import moment from 'moment';
+import './main.css';
+import {FiImage} from 'react-icons/fi';
+
 
 class Main extends Component {
 
@@ -28,7 +31,11 @@ class Main extends Component {
                             placeholder="description..."
                             required />
                       </div>
-                    <input type="file" onChange={this.props.captureFile} className="text-white text-monospace"/>
+                      <label className='button300' for="upload"><FiImage/>choose file</label>
+                      {/* <input type="file" id="actual-btn" onChange={this.props.captureFile}/>
+                       <label for="actual-btn">Choose File</label> */}
+                        <input id="upload" type="file"  name='image' onChange={this.props.captureFile}/>
+                        <br></br>
                     <button type="submit" className="btn-primary btn-block"><b>Upload!</b></button>
                   </form>
               </div>
