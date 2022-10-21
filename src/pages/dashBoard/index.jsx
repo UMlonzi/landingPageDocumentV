@@ -20,44 +20,65 @@ import { Link, useNavigate } from 'react-router-dom';
 import { getAuth, onAuthStateChanged, signOut } from 'firebase/auth';
 
 
+class Test extends React.Component{
+  constructor(props){
+    super(props);
+    this.state={
+      name:"monnus",
+     }
+     console.log("selectFile",this.props.selectFile);
+
+     console.log("selectile",this.props.selectFile);
+     
+   }
+   
+   render() {
+   return (
+     <>
+       
+     </>
+   )
+ }
+}
 const DashBoardPage = () => {
-const [loggInState,setloggInState]=useState(false);
+  const [loggInState,setloggInState]=useState(false);
   const auth=getAuth();
   const [selectFile,setSelectFile]=useState([])
 
-
-const handleCalander=(minusDays=0)=>{
-  const selectMonth = ["Jan","Feb","Mar","Apr","May","June","July","Aug","Sep","Oct","Nov","Dec"];
+  
+  const handleCalander=(minusDays=0)=>{
+    const selectMonth = ["Jan","Feb","Mar","Apr","May","June","July","Aug","Sep","Oct","Nov","Dec"];
 
   const date=new Date();
   //get day of the month
-const day=date.getDate();
-const week=date.getDay();
-const year=date.getFullYear();
-const month=selectMonth[date.getMonth()];
-return ` ${month} ${(day-minusDays)}, ${year}`;
+  const day=date.getDate();
+  const week=date.getDay();
+  const year=date.getFullYear();
+  const month=selectMonth[date.getMonth()];
+  return ` ${month} ${(day-minusDays)}, ${year}`;
 };
 handleCalander();
 
 
-  const navigate=useNavigate();
+const navigate=useNavigate();
 const handleLogOut=()=>{
   signOut(auth);
   setloggInState(false)
   navigate("/")
 }
 const hanleSelectFile=(e)=>{
-  console.log(e.target.files);
-  const {files}=e.target.files;
-  setSelectFile(item=>[...item,e.target.files]);
-   console.log(selectFile)
+  console.log(e.target.files[0]);
+  const file=Object.assign(e.target.files[0]);
+  setSelectFile(item=>[...item,file]);
 };
 
-  return (
 
-    <div className="pageGrid" 
-    style={{width:`100vw`,height:"100vh"}}>
+return (
+  
+  <div className="pageGrid" 
+  style={{width:`100vw`,height:"100vh"}}>
       <div className='item1'>
+      <Test selectFile={selectFile}/>
       <nav>
         <h5>Wlecome Back</h5>
         <br/>
@@ -88,7 +109,11 @@ onClick={handleLogOut}>
 
    </nav>
    <div 
-   style={{position:"absolute",width:"0.1rem",top:"5rem",right:"0",height:"75rem",backgroundColor:"lightgray"}}></div>
+   style={{position:"absolute",
+   width:"0.1rem",top:"5rem",right:"0",height:"75rem",
+   backgroundColor:"lightgray"}}></div>
+<div className='wave'></div>
+<div className='wave2'></div>
 
       </div>
     <div className='item2'>
@@ -130,7 +155,7 @@ onClick={handleLogOut}>
       </div>
     <div className='item3'>
       <div style={{}}>
-      <DisplayUplaodTable/>
+      <DisplayUplaodTable selectFile={selectFile}/>
       </div>
       <div style={{}}>
       <img src={welcomeIMG} alt=" wecome to dashboard"/>
@@ -151,5 +176,6 @@ onClick={handleLogOut}>
   
   )
 }
+
 
 export default DashBoardPage

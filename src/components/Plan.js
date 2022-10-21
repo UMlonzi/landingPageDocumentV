@@ -10,7 +10,7 @@ const Plan = () => {
 // const handleClick = () => setClick(!click)
 const navigate=useNavigate();
 const navigateToContactUs=()=>{
-    navigate('/Auth')
+    navigate('/Auth');
 }
 
   return (
@@ -29,7 +29,6 @@ const navigateToContactUs=()=>{
         <button onClick={navigateToContactUs}className='price_button'>Get Started</button>
     </div>
 </div>
-<div className='color'>
 <div className='heading_plan'>
 <h1>Choose a plan that works for you</h1>
 <p>
@@ -37,7 +36,6 @@ By subscribing to a Docuify plan, you agree to the <a href='/'> Docuify Terms of
 Note: The <a href='/'> Docuify Terms of Service </a>  <br></br>
 describes how data is handled in this service.
  </p>
-</div>
 </div>
 <TabsPlan/>
 </div>

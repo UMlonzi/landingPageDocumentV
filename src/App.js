@@ -4,12 +4,12 @@ import Auth from './components/auth/Auth';
 import LandingPage from './components/LandingPage';
 import Profile from './components/profile/Profile';
 import DashBoardPage from './pages/dashBoard';
-// import AboutPage from './pages/about/AboutPage';
-// import PlanPage from './pages/plan/PlanPage';
-// import ContactUsPage from './pages/contactUs/ContactUsPage';
-// import Authentication from './components/verifier/vriAuth/Authentication';
-// import Verdash from './components/verifier/Verdash';
-// import Practice from './pages/practice/Practice'
+import AboutPage from './pages/about/AboutPage';
+import PlanPage from './pages/plan/PlanPage';
+import ContactUsPage from './pages/contactUs/ContactUsPage';
+import Authentication from './components/verifier/vriAuth/Authentication';
+import Verdash from './components/verifier/Verdash';
+import Practice from './pages/practice/Practice'
 
 import {getAuth, onAuthStateChanged} from "firebase/auth";
 import { useEffect } from 'react';
@@ -28,12 +28,12 @@ console.log(user);
         <Route path='/Auth' element={<Auth/>}/>
         <Route path='/profile' element={<Profile/>} />
         <Route path='/Dashboard' element={<DashBoardPage/>}/>
-        {/* <Route path='/About' element={<AboutPage/>}/> */}
-        {/* <Route path='/Plan' element={<PlanPage/>}/>
+        <Route path='/About' element={<AboutPage/>}/> 
+      <Route path='/Plan' element={<PlanPage/>}/>
         <Route path='/ContactUs' element={<ContactUsPage/>}/>
-        <Route path='/authentication' element={<Authentication/>}/> */}
-        {/* <Route path='/verifierdashboard' element={<Verdash/>}/> */}
-        {/* <Route path='/Practice' element={<Practice/>}/> */}
+        <Route path='/authentication' element={<Authentication/>}/>
+       <Route path='/verifierdashboard' element={<Verdash/>}/> 
+         <Route path='/Practice' element={<Practice/>}/>
 
       </Routes>
       </BrowserRouter>

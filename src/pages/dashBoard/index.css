@@ -97,9 +97,29 @@ justify-content: space-evenly;
     box-shadow: 2px 2px 5px gray;
 
 }
-
+.wave{
+    position: relative;
+    width:100%;
+    height:10rem;
+    background-image: url("../../imagess/wave.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: -5rem;
+}
+.wave2{
+    position: relative;
+    width:100%;
+    height:9rem;
+    background-image: url("../../imagess/wave.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+transform: rotate(200px);
+    bottom: 3em;
+}
 .tableLine{
-    height:5rem;
+    height:auto;
     width:1rem;
     z-index: 1;
     background: rgb(122,56,112)
