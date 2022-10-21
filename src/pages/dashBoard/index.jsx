@@ -23,6 +23,7 @@ import { getAuth, onAuthStateChanged, signOut } from 'firebase/auth';
 const DashBoardPage = () => {
 const [loggInState,setloggInState]=useState(false);
   const auth=getAuth();
+  const [selectFile,setSelectFile]=useState([])
 
 
 const handleCalander=(minusDays=0)=>{
@@ -45,6 +46,12 @@ const handleLogOut=()=>{
   setloggInState(false)
   navigate("/")
 }
+const hanleSelectFile=(e)=>{
+  console.log(e.target.files);
+  const {files}=e.target.files;
+  setSelectFile(item=>[...item,e.target.files]);
+   console.log(selectFile)
+};
 
   return (
 
@@ -95,8 +102,20 @@ onClick={handleLogOut}>
       <div style={{display:"flex",flexGrow:"3",padding:"0 0",textAlign:"center"}}>
         <input type="text" style={{width:"40rem",height:"4rem", borderRadius:"0.9rem"}}/>
         <SearchIcon fontSize="small"
-        style={{height:"4rem",width:"4rem",cursor:"pointer", backgroundColor:"F7F5F2",color:"rgba(121,50,128)",borderRadius:"0.9rem"}} />
-        <button style={{width:"15rem",cursor:"pointer",height:"4rem",fontSize:"2rem",backgroundColor:"black",borderRadius:"1rem",marginRight:"1rem", color:"white"}}> Add file</button>
+      style={{height:"4rem",width:"4rem",cursor:"pointer", backgroundColor:"F7F5F2",color:"rgba(121,50,128)",borderRadius:"0.9rem"}} />
+      
+ 
+        <button 
+        style={{width:"15rem",cursor:"pointer",height:"4rem",
+        fontSize:"2rem",backgroundColor:"black",borderRadius:"1rem",
+        marginRight:"1rem", color:"white"}} type="button" onChange={(e)=>hanleSelectFile(e)}> 
+        <label htmlFor='filebtn'>select file</label>
+        
+        <input id="filebtn" type="file"  style={{color:"rgba(0,0,0,0)"}}/>
+          
+        
+        </button>
+    
       </div>
       <div>
         {/* empty div for space dont remove*/}
