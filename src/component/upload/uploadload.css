@@ -23,17 +23,17 @@
   }
   tr{
       font-size:2rem;   
-      height:5rem;; 
     color:gray;
         border:2px solid white;
         border-spacing: 60px;
         box-shadow: 2px 2px 2px black;
-background:white;
+        background-color: #F7F5F2;
+
 }
 td{
     font-size:1.5rem;    
     color:gray;
-};
+}
 .tableHeader4{
   color:green
 
