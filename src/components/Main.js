@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { convertBytes } from './helpers';
 import {moment} from 'moment'
-import moment from 'moment';
 import './main.css';
 import {FiImage} from 'react-icons/fi';
 
