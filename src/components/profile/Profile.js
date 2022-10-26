@@ -15,6 +15,7 @@ const Profile=()=> {
             return{...prev,[name]:value};
         });
     }
+    
     const addDoc = (event)=>{
         event.preventDefault();
         db.collection('users').add({

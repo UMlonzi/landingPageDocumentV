@@ -54,7 +54,7 @@ const CalenderBox = ({handleCalander,minusDays}) => {
 
 
   return (
-    <div style={{height:"25rem"}}>
+    <div style={{height:"auto"}}>
     <div  style={{display:"flex", position:"relative",
     justifyContent:"space-evenly", alignItems:"center",fontSize:"1.1rem"}}>
       <h3>{handleCalander(minusDays)}</h3>

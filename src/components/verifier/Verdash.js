@@ -3,7 +3,6 @@ import './verdash.css';
 import {GrDocumentPdf} from 'react-icons/gr';
 import Vernav from './Vernav';
 
-
 function Verdash() {
   return (
     <div className='verDash-main'>
