@@ -72,7 +72,7 @@ const Profile=()=> {
             value={users.email}
             onChange={handleChange}/>
             </div>
-            <div class="button-wrap">
+            <div className="button-wrap">
                 <label className='button300' for="upload"><FiImage/>Upload</label>
                 <input id="upload" type="file" value={users.image} name='image' onChange={handleChange}/>
              </div>
